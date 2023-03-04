@@ -1,0 +1,203 @@
+
+
+body{
+    background-color: #1f1f1f;
+    color: white;
+    font-size: 16px;
+    font-family: 'Tahoma', sans-serif;
+    overflow-x: hidden;
+}
+
+/* start of nav section  */
+nav{
+    position: fixed;
+    display: flex;
+    justify-content:flex-end;
+    align-items: center;
+    padding: 2rem 2rem 2rem 1rem;
+    width: 97dvw;
+  
+
+}
+
+/* start of header home-page section  */
+
+header{
+    width: 100dvw;  
+    height: 100dvh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+
+}
+.menu{
+    border-radius: 50%;
+    height: 60px;
+    width: 60px;
+    border: 1px solid whitesmoke;
+    display: flex;
+    flex-direction: column;
+    gap: 0.6rem;
+    justify-content: center;
+    align-items: center;
+}
+
+.line{
+    border: 1px solid whitesmoke;
+    width: 25px;
+}
+
+header>div{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: -12rem;
+    gap: 3rem;
+}
+h1{
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: whitesmoke;
+    color: #1f1f1f;
+    font-size: 10rem;
+    font-weight:thin;
+    text-align: center;
+    font-variant-caps:all-petite-caps;
+    max-width: 30ch;
+
+}
+
+h2{
+    font-size: 1.2rem;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight:100;
+    color: whitesmoke;
+    max-width: 80ch;
+    opacity:69%;
+    text-align: center;
+
+}
+
+/* end of header home-page section  */
+
+
+/* start of project section  */
+
+.project-section{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 16rem;
+
+}
+
+.project{
+    width: 99dvw;
+    height: 80dvh;
+    border: 1px solid aqua;
+    display: flex;
+    flex-direction: row;
+}
+
+.project .project-image{
+    width: 65dvw;
+    height: 80dvh;
+    background-image: url(images/szanina.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: relative;
+}
+.project-image >img{
+
+    width: 100%;
+    height: 100%;
+   
+}
+.project-image>h1{
+    mix-blend-mode: difference;
+    position: absolute;
+    bottom: -3rem;
+    right: 0rem;
+    font-size: 7rem;
+    max-width: 7ch;
+    -webkit-text-stroke-width: 1px;
+    animation: run 10s infinite alternate ease-in-out;
+
+}
+
+@keyframes run {
+    from {
+      transform:translate(0rem)
+    }
+    to {
+      transform: translate(-45rem);
+    }
+}
+
+.project-type{
+    width: 20dvw;
+    height: 100%;
+    display:flex ;
+    flex-direction: column;
+    justify-content:space-around;
+    align-items: center;
+    
+
+}
+.project-text{
+  
+    width: 100%;
+    font-size:2rem;
+    letter-spacing: 1rem;
+    font-weight:lighter;
+    rotate:60deg;
+   
+
+}
+.project-button{
+    border-radius: 50%;
+    width: 180px;
+    height: 180px;
+    border: 1px solid orange;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+   
+}
+
+.button-text{
+    opacity: 80%;
+    font-size:medium;
+    letter-spacing: 0.8rem;
+    max-width: 1201ch;
+    text-align: center;
+    position: absolute;
+    white-space: nowrap;
+    animation: rotation 20s infinite linear;
+
+}
+
+@keyframes rotation {
+    from {
+      transform: rotate(0deg);
+    }
+    to {
+      transform: rotate(359deg);
+    }
+
+}
+
+.project-number{
+
+    width: 14dvw;
+    display: flex;
+    justify-content: end;
+    align-items: center;
+}
+.project-number>h1{
+
+    rotate: 90deg;
+}
