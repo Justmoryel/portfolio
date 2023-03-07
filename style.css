@@ -18,6 +18,7 @@ nav{
     align-items: center;
     padding: 2rem 2rem 2rem 1rem;
     width: 97dvw;
+    z-index: 999;
   
 }
 .menu{
@@ -30,6 +31,7 @@ nav{
     gap: 0.6rem;
     justify-content: center;
     align-items: center;
+    background-color: #1f1f1f;
 }
 
 .line{
@@ -107,6 +109,7 @@ h2{
     width: 65dvw;
     height: 80dvh;
     background-image: url(images/laniemoore-shop.jpg);  
+    background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
     position: relative;
@@ -116,6 +119,7 @@ h2{
     width: 65dvw;
     height: 80dvh;
     background-image: url(images/apax-visa-consultancy.jpg);
+    background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
     position: relative;
@@ -124,6 +128,7 @@ h2{
     width: 65dvw;
     height: 80dvh;
     background-image: url(images/jessechedotal-coach.jpg);
+    background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
     position: relative;
@@ -132,6 +137,7 @@ h2{
     width: 65dvw;
     height: 80dvh;
     background-image: url(images/obsequium-lawfirm.jpg);
+    background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
     position: relative;
@@ -282,6 +288,209 @@ small{
     left: 2rem;
     font-size:x-small;
 }
-
-
 /* end of footer styling */
+
+
+/*-------------start style of work projects detail page------------------------*/
+
+.project-container{
+    width: 100dvw;
+    height: 100dvh;
+    position: fixed;
+}
+.project-image-detail{              /*first project styling of specific images*/
+    width: 80dvw;
+    height: 80dvh;
+    background-image: url(images/laniemoore-shop.jpg);  
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    position: absolute;
+    bottom: 3rem;
+    right: 0rem;
+}
+.project-title>h1{                  /* project styling of specific of title */
+    mix-blend-mode:difference;
+    position: absolute;
+    top: -10dvh;
+    right: 0rem;
+    font-size:7dvw;
+}
+
+.project-description{               /* first project styling of specific images */
+    width: 55dvw;
+    height: 40dvh;
+    bottom: 0rem;
+    right: 3rem;
+    position: absolute;
+    background-color: rgba(0, 0, 0, 0.75);
+    opacity: 70%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+
+    
+}
+.project-description>p{         /* project styling description of project */
+    word-spacing: 0.5ch;
+    text-align:left;
+    padding: 0 3rem 0 3rem;
+    font-size: 1dvw;
+    font-weight: 100;
+    text-indent: 4rem;
+    line-height: 3.5dvh;
+    letter-spacing: 0.1rem;
+}
+
+.empty{
+    width: 100dvw;
+    height: 100dvh;
+    z-index: 1;
+    position: relative;
+}
+
+.project-branding-container{      /* project styling branding of project */
+    width: 70dvw;
+    min-height: 100dvh;
+    position: relative;
+    z-index: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(7, 4, 2, 0.75);
+}
+
+.branding-image-container{
+    width: 65dvw;
+    padding: 3rem 0rem 3rem 0rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 5rem;
+   
+}
+
+.branding-image-container.two, 
+.branding-image-container.three, 
+.branding-image-container.four{
+    width: 65dvw;
+    height: 60dvh;
+}
+.branding-image-container.one{
+    height: 25dvh;
+    background-image: url(images/laniemoorecolorpallete.jpg);
+    background-size:cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.branding-image-container.two{
+    background-image: url(images/laniemoore-landing-page.jpg);
+    background-size:cover;
+    background-repeat: no-repeat;
+    background-position: center;
+
+}
+
+.branding-image-container.three{
+    background-image: url(images/laniemoore-laptop-two.jpg);
+    background-size:cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.branding-image-container.four{
+    background-image: url(images/laniemoore-laptop-front.jpg);
+    background-size:cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+/*-------------end style of work projects detail page------------------------*/
+
+
+/*-------------start style of project footer ------------------------*/
+
+.project-footer{
+    position: relative;
+    z-index: 1;
+    background-color: #1f1f1f;
+    width: 100%;
+    height: 100dvh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.project-footer>h1{
+    font-size: 6dvw;
+    width: 100%;
+    height: 50dvh;
+
+}
+.project-button-container{
+    height: 30dvh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items:center;
+    gap: 20dvw;
+}
+.project-button-container .circle.white{
+    width: 160px;
+    height: 160px;
+    border-radius: 50%;
+    border:1px solid whitesmoke;
+    position: relative;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+
+}
+.project-button-container .circle.orange{
+    width: 160px;
+    height: 160px;
+    border-radius: 50%;
+    border:1px solid orange;
+    position: relative;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+.circle>h2{
+    font-size: 1rem;
+    white-space:nowrap;
+    letter-spacing: 0.5ch;
+    font-weight: 100;
+    word-spacing: 0.5ch;
+    text-align: center;
+}
+.circle.white>h2{
+    animation: rotate_white 200s infinite linear;
+}
+.circle.orange>h2{
+    animation: rotate_orange 200s infinite linear;
+}
+
+@keyframes rotate_white {
+    from {
+      transform: rotate(359deg);
+    }
+    to {
+      transform: rotate(0deg);
+    }
+}
+
+
+@keyframes rotate_orange {
+    from {
+      transform: rotate(0deg);
+    }
+    to {
+      transform: rotate(359deg);
+    }
+}
