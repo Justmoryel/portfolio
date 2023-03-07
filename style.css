@@ -332,6 +332,17 @@ small{
     bottom: 3rem;
     right: 0rem;
 }
+.project-image-detail.four{              /*fourth project styling of specific images*/
+    width: 80dvw;
+    height: 80dvh;
+    background-image: url(images/obsequium-estab.jpg);  
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    position: absolute;
+    bottom: 3rem;
+    right: 0rem;
+}
 .project-title>h1{                  /* project styling of specific of title */
     mix-blend-mode:difference;
     position: absolute;
@@ -502,6 +513,40 @@ small{
     background-position: center;
 }
 
+.branding-image-container.two,                  /* fourth  project images branding style*/
+.branding-image-container.three, 
+.branding-image-container.four{
+    width: 65dvw;
+    height: 60dvh;
+}
+.branding-image-container.obs .one{
+    height: 25dvh;
+    background-image: url(images/obsequium-colorpallete.jpg);
+    background-size:cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.branding-image-container.obs .two{
+    background-image: url(images/obsequium-lawfirm.jpg);
+    background-size:cover;
+    background-repeat: no-repeat;
+    background-position: center;
+
+}
+
+.branding-image-container.obs .three{
+    background-image: url(images/obsequium-laptop.jpg);
+    background-size:cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.branding-image-container.obs .four{
+    background-image: url(images/obsequium-phone.jpg);
+    background-size:cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
 /*-------------end style of work projects detail page------------------------*/
 
 
