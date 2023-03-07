@@ -309,6 +309,18 @@ small{
     bottom: 3rem;
     right: 0rem;
 }
+
+.project-image-detail.two{              /*second project styling of specific images*/
+    width: 80dvw;
+    height: 80dvh;
+    background-image: url(images/apax-visa-consultancy.jpg);  
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    position: absolute;
+    bottom: 3rem;
+    right: 0rem;
+}
 .project-title>h1{                  /* project styling of specific of title */
     mix-blend-mode:difference;
     position: absolute;
@@ -317,7 +329,7 @@ small{
     font-size:7dvw;
 }
 
-.project-description{               /* first project styling of specific images */
+.project-description{               /* project styling of background of the parag */
     width: 55dvw;
     height: 40dvh;
     bottom: 0rem;
@@ -332,7 +344,7 @@ small{
 
     
 }
-.project-description>p{         /* project styling description of project */
+.project-description>p{         /* project styling description parag of project */
     word-spacing: 0.5ch;
     text-align:left;
     padding: 0 3rem 0 3rem;
@@ -350,7 +362,7 @@ small{
     position: relative;
 }
 
-.project-branding-container{      /* project styling branding of project */
+.project-branding-container{      /* project styling branding/casestudy of project */
     width: 70dvw;
     min-height: 100dvh;
     position: relative;
@@ -373,7 +385,7 @@ small{
    
 }
 
-.branding-image-container.two, 
+.branding-image-container.two,                  /* first project images branding style*/
 .branding-image-container.three, 
 .branding-image-container.four{
     width: 65dvw;
@@ -407,6 +419,43 @@ small{
     background-repeat: no-repeat;
     background-position: center;
 }
+
+
+.branding-image-container.two,                  /* second  project images branding style*/
+.branding-image-container.three, 
+.branding-image-container.four{
+    width: 65dvw;
+    height: 60dvh;
+}
+.branding-image-container.apax .one{
+    height: 25dvh;
+    background-image: url(images/apaxcolorpallete.jpg);
+    background-size:cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.branding-image-container.apax .two{
+    background-image: url(images/apax-company-front.jpg);
+    background-size:cover;
+    background-repeat: no-repeat;
+    background-position: center;
+
+}
+
+.branding-image-container.apax .three{
+    background-image: url(images/apax-logo.jpg);
+    background-size:cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.branding-image-container.apax .four{
+    background-image: url(images/apax-brochure.jpg);
+    background-size:cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
 
 /*-------------end style of work projects detail page------------------------*/
 
