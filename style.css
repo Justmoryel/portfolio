@@ -633,3 +633,51 @@ small{
       transform: rotate(359deg);
     }
 }
+
+
+/*-------------end style of project footer ------------------------*/
+/*-------------start style of about me page ------------------------*/
+
+.review-container{
+    width: 99.8dvw;
+    height: 100dvh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.review-image-container{
+    width: 90dvw;
+    height: 60dvh;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    gap: 4rem;
+
+}
+.review-image{
+    min-width: 17dvw;
+    min-height: 14dvh;
+
+}
+
+.review-image.one{
+    background-image: url(images/editors-choice-01.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+
+}
+.review-image.two{
+    background-image: url(images/editors-choice-02.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+
+}
+.review-image.three{
+    background-image: url(images/editors-choice-03.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
