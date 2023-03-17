@@ -149,9 +149,11 @@ h2{
     height: 180px;
     border: 1px solid rgb(224, 27, 204);
     display: flex;
+    background-color: transparent;
     justify-content: center;
     align-items: center;
     position: relative;
+    cursor: pointer;
    
 }
 .project.two .project-button{    /*second project styling of button*/
@@ -159,6 +161,7 @@ h2{
     width: 180px;
     height: 180px;
     border: 1px solid rgba(0, 55, 255, 0.874);
+    background-color: transparent;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -170,6 +173,7 @@ h2{
     width: 180px;
     height: 180px;
     border: 1px solid orange;
+    background-color: transparent;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -181,6 +185,7 @@ h2{
     width: 180px;
     height: 180px;
     border: 1px solid aqua;
+    background-color: transparent;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -282,6 +287,12 @@ footer>div{
     padding-top: 5rem;
 
 }
+footer>div>button{
+    background-color: transparent;
+    border: none;
+    cursor:pointer;
+}
+
 small{
     position: absolute;
     bottom: 2rem;
@@ -579,6 +590,10 @@ small{
     align-items:center;
     gap: 20dvw;
 }
+button.circle{
+    cursor: pointer;
+    background-color: transparent;
+}
 .project-button-container .circle.white{
     width: 160px;
     height: 160px;
@@ -588,7 +603,6 @@ small{
     justify-content: center;
     align-items: center;
     display: flex;
-
 }
 .project-button-container .circle.orange{
     width: 160px;
@@ -856,13 +870,14 @@ input.reason{
     height: 180px;
     border-radius: 50%;
     cursor: pointer;
-    color: whitesmoke;
     border: 1px solid aqua;
     background-color: transparent;
     font-size: medium;
     font-variant-caps: all-petite-caps;
     font-size: 1.5rem;
     text-align: center;
+    color:aqua;
+    background-color: black;
 }
 
 
