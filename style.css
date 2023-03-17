@@ -43,12 +43,11 @@ nav{
 /* start of header home-page section  */
 
 header{
-    width: 100dvw;  
-    height: 100dvh;
+    width: 100dvw;
+    min-height: 100dvh;  
     display: flex;
     justify-content: center;
     align-items: center;
-    overflow: hidden;
 
 }
 
@@ -57,8 +56,8 @@ header>div{
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    margin-top: -12rem;
     gap: 3rem;
+    padding: 1rem 8rem 5rem 8rem;
 }
 h1{
     -webkit-text-stroke-width: 1px;
@@ -73,7 +72,7 @@ h1{
 }
 
 h2{
-    font-size: 1.2rem;
+    font-size: 1.4rem;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-weight:100;
     color: whitesmoke;
@@ -359,7 +358,7 @@ small{
     position: absolute;
     top: -10dvh;
     right: 0rem;
-    font-size:7dvw;
+    font-size:7.5rem;
 }
 
 .project-description{               /* project styling of background of the parag */
@@ -373,6 +372,7 @@ small{
     display: flex;
     justify-content: center;
     align-items: center;
+    overflow: hidden;
     
 
     
@@ -381,10 +381,10 @@ small{
     word-spacing: 0.5ch;
     text-align:left;
     padding: 0 3rem 0 3rem;
-    font-size: 1dvw;
+    font-size: 1rem;
     font-weight: 100;
     text-indent: 4rem;
-    line-height: 3.5dvh;
+    line-height: 2rem;
     letter-spacing: 0.1rem;
 }
 
@@ -397,7 +397,7 @@ small{
 
 .project-branding-container{      /* project styling branding/casestudy of project */
     width: 70dvw;
-    min-height: 100dvh;
+    height: auto;
     position: relative;
     z-index: 1;
     display: flex;
@@ -567,8 +567,8 @@ small{
     position: relative;
     z-index: 1;
     background-color: #1f1f1f;
-    width: 100%;
-    height: 100dvh;
+    width: 100dvw;
+    min-height: 100dvh;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -576,19 +576,25 @@ small{
 
 }
 
+.project-footer, .about-footer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 8rem;
+}
 .project-footer>h1, .about-footer>h1{
-    font-size: 6dvw;
+    font-size: 5rem;
     width: 100%;
-    height: 50dvh;
+    padding-left: 4rem;
+    padding-right: 4rem;
+    
 
 }
 .project-button-container{
-    height: 30dvh;
     width: 100%;
     display: flex;
-    justify-content: center;
+    justify-content: space-evenly;
     align-items:center;
-    gap: 20dvw;
 }
 button.circle{
     cursor: pointer;
@@ -754,10 +760,11 @@ button.circle{
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    padding: 0rem 4rem rem 4rem;
+
 }
 .about-pitch-two>h1{
     font-size: 5rem;
+    padding: 0rem 4rem 0rem 4rem;
 
 }
 span{
