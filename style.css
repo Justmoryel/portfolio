@@ -750,7 +750,121 @@ span{
     -webkit-text-stroke-color: orange;
 }
 
-
-
-
 /*-------------end style of about me page ------------------------*/
+
+/*-------------start style of contact page ------------------------*/
+
+.contact-container{
+    display: flex;
+    justify-content:center;
+    align-items:start;
+    flex-direction: column;
+    width: 100dvw;
+    height:  auto;
+    gap: 4rem;
+    overflow:visible;   
+    padding-top: 8rem;
+}
+.contact-container>h1{
+    font-size: 8rem;
+    text-align: left;
+    max-width: 17ch;
+    padding: 0rem 8rem 0rem 8rem;
+
+
+
+}
+.contact-container>h2{
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color:orange;
+    color: #1f1f1f;
+    font-size: 5rem;
+    font-weight:bold;
+    text-align: left;
+    font-variant-caps:all-petite-caps;
+    max-width: 15ch;
+    padding: 0rem 8rem 2rem 8rem;
+
+}
+.contact-container h2 >span{
+    -webkit-text-stroke-width: 2px;
+    -webkit-text-stroke-color:red;
+}
+
+
+form div>p{                                                    /* form style */ 
+
+    font-size: 1.8rem;
+    font-family:'Josefin Slab', 'Arial Narrow', Arial, sans-serif;
+    line-height: 4rem;
+    max-width: 55ch;
+    padding: 9rem 9rem 2rem 9rem;
+    
+}
+form{
+    display: flex;
+    justify-content: start;
+    align-items: start;
+    width: 100dvw;
+    height: auto;
+}
+
+input, select{
+    text-align: center;
+    color:aqua;
+    font-family:'Josefin Slab', 'Arial Narrow', Arial, sans-serif;
+    font-size: 1rem;
+}
+::-webkit-input-placeholder{
+    color:aqua;
+    text-align: center;
+    opacity: 50%;
+    font-family:'Josefin Slab', 'Arial Narrow', Arial, sans-serif;
+    font-size: 1rem;
+}
+
+input.name:focus, select.budget:focus, input.reason:focus, select.source:focus{
+    outline: none;
+}
+
+  
+input.name, input.reason, select.source, select.budget{
+    min-width: 20ch;
+    background-color: transparent;
+    color:aqua;
+    border: none;
+    border-bottom: 1px solid whitesmoke;
+}
+input.name{
+    min-width: 30ch;
+}
+input.reason{
+    min-width: 40ch;
+}
+
+
+.footer-container{
+    position: relative;
+    width: 100dvw;
+    display: flex;
+    justify-content: space-evenly;
+    align-items:center;
+    padding: 0rem 9rem 4rem 9rem;
+}
+.footer-container button{
+    width: 180px;
+    height: 180px;
+    border-radius: 50%;
+    cursor: pointer;
+    color: whitesmoke;
+    border: 1px solid aqua;
+    background-color: transparent;
+    font-size: medium;
+    font-variant-caps: all-petite-caps;
+    font-size: 1.5rem;
+    text-align: center;
+}
+
+
+/*-------------end style of contact page ------------------------*/
+
