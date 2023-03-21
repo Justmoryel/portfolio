@@ -10,7 +10,7 @@
         font-family: 'Tahoma', sans-serif;
         overflow-x: hidden;
     }
-                             /* start of nav section  */
+                            /* start of nav section  */
     nav{
         position: fixed;
         display: flex;
@@ -87,13 +87,13 @@
         flex-direction: column;
         justify-content: center;
         align-items: start;
-        gap: 6rem;
+        gap: 9rem;
         padding-bottom: 2rem;
         overflow-x: hidden;
     }
     .project{
         width: 100%;
-        height: 50dvh;
+        height: 60dvh;
         display: flex;
         flex-direction: row;
        
@@ -103,7 +103,7 @@
         rotate: 90deg;
     }
     .project-number{
-        width: 15dvw;
+        width: 5dvw;
         display: flex;
         justify-content: end;
         align-items: center;
@@ -125,7 +125,7 @@
         letter-spacing: 0.5rem;
         font-weight:lighter;
         text-align:center;
-        rotate:60deg;
+        rotate:90deg;
     
     }
     .project-image>h1{              /* animation rotate of text button */
@@ -158,6 +158,7 @@
         position: absolute;
         white-space: nowrap;
         animation: rotation 100s infinite linear;
+        
     }
     @keyframes rotation {
         from {
@@ -172,7 +173,7 @@
      /* first project styling */
 
     .project .project-image{    /*first project styling of specific images*/
-        width: 70dvw;
+        width: 74dvw;
         height: 100%;
         background-image: url(images/laniemoore-shop.jpg); 
         background-position: center;
@@ -181,7 +182,7 @@
         position: relative;   
     }
     .project.two .project-image{    /*second project styling of specific images*/
-        width: 70dvw;
+        width: 74dvw;
         height: 100%;
         background-image: url(images/apax-visa-consultancy.jpg);
         background-position: center;
@@ -190,7 +191,7 @@
         position: relative;
     }
     .project.three .project-image{    /*third project styling of specific images*/
-        width: 70dvw;
+        width: 74dvw;
         height: 100%;
         background-image: url(images/jessechedotal-coach.jpg);
         background-position: center;
@@ -199,7 +200,7 @@
         position: relative;
     }
     .project.four .project-image{    /*fourth project styling of specific images*/
-        width: 70dvw;
+        width: 74dvw;
         height: 100%;
         background-image: url(images/obsequium-lawfirm.jpg);
         background-position: center;
@@ -220,7 +221,6 @@
         align-items: center;
         position: relative;
         cursor: pointer;
-       
     }
     .project.two .project-button{    /*second project styling of button*/
         border-radius: 50%;
