@@ -17,9 +17,8 @@
         justify-content:flex-end;
         align-items: center;
         padding: 1rem 0rem 1rem 0rem;
-        width: 70dvw;
+        width: 95dvw;
         z-index: 999;
-        border: 1px solid greenyellow;
     }
     .menu{
         border-radius: 50%;
@@ -64,12 +63,11 @@
     
     }
     header{
-        width: 70dvw;
+        width: 100dvw;
         min-height: 100dvh;  
         display: flex;
         justify-content: center;
         align-items: center;
-        border: 1px solid aliceblue;
     }
     header>div{
         display: flex;
@@ -77,7 +75,8 @@
         justify-content: center;
         align-items: center;
         gap: 3rem;
-        padding: 0rem 0rem 0rem 0rem;
+        padding: 0rem 2rem 0rem 2rem;
+        overflow-x: hidden;
     }
                     /*end of header section*/
 
@@ -89,27 +88,22 @@
         justify-content: center;
         align-items: start;
         gap: 6rem;
-        border:1px solid orange;
+        padding-bottom: 2rem;
+        overflow-x: hidden;
     }
     .project{
         width: 100%;
         height: 50dvh;
         display: flex;
         flex-direction: row;
-        border: 1px solid white;
        
     }
             /*initializing projects components*/
-    .project-image >img{    
-        width: 100%;
-        height: 100%;
-       
-    }
     .project-number>h1{
         rotate: 90deg;
     }
     .project-number{
-        width: 10dvw;
+        width: 15dvw;
         display: flex;
         justify-content: end;
         align-items: center;
@@ -126,7 +120,7 @@
         
     }
     .project-text{
-        width: 100%;
+        width: auto;
         font-size:1rem;
         letter-spacing: 0.5rem;
         font-weight:lighter;
@@ -156,12 +150,14 @@
 
     .button-text{                   /* animation loop of text title */
         opacity: 80%;
-        font-size:0.5rem;
+        mix-blend-mode: difference;
+        font-size:0.7rem;
         letter-spacing: 0.2rem;
         text-align: center;
+        font-weight: 100;
         position: absolute;
         white-space: nowrap;
-        animation: rotation 20s infinite linear;
+        animation: rotation 100s infinite linear;
     }
     @keyframes rotation {
         from {
@@ -176,7 +172,7 @@
      /* first project styling */
 
     .project .project-image{    /*first project styling of specific images*/
-        width: 60dvw;
+        width: 70dvw;
         height: 100%;
         background-image: url(images/laniemoore-shop.jpg); 
         background-position: center;
@@ -185,7 +181,7 @@
         position: relative;   
     }
     .project.two .project-image{    /*second project styling of specific images*/
-        width: 60dvw;
+        width: 70dvw;
         height: 100%;
         background-image: url(images/apax-visa-consultancy.jpg);
         background-position: center;
@@ -194,7 +190,7 @@
         position: relative;
     }
     .project.three .project-image{    /*third project styling of specific images*/
-        width: 60dvw;
+        width: 70dvw;
         height: 100%;
         background-image: url(images/jessechedotal-coach.jpg);
         background-position: center;
@@ -203,7 +199,7 @@
         position: relative;
     }
     .project.four .project-image{    /*fourth project styling of specific images*/
-        width: 60dvw;
+        width: 70dvw;
         height: 100%;
         background-image: url(images/obsequium-lawfirm.jpg);
         background-position: center;
@@ -259,15 +255,14 @@
     /* start of footer styling */
 
     footer>div{
-        width: 70dvw;
-        min-height: 50dvh;
+        width: 100dvw;
+        min-height: 70dvh;
         display: flex;
         flex-direction: column;
         justify-content: center;
         align-items: center;
         position: relative;
-        padding-top: 5rem;
-        border: 1px solid red;
+
 
     }
     footer>div>button{
@@ -278,9 +273,9 @@
 
     small{
         position: absolute;
-        bottom: 2rem;
+        bottom: 1rem;
         left: 2rem;
-        font-size:x-small;
+        font-size:0.5rem;
     }
 /* end of footer styling */
     
