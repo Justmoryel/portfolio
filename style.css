@@ -101,7 +101,7 @@ header>div{
 }
 .project{
     width: 1920px;
-    height: 80dvh;
+    height: 70dvh;
     display: flex;
     flex-direction: row;
 
@@ -112,14 +112,14 @@ header>div{
     rotate: 90deg;
 }
 .project-number{
-    width: 10dvw;
+    width: 5dvw;
     display: flex;
     justify-content: end;
     align-items: center;
 
 }
 .project-type{
-    width: 10dvw;
+    width: 20dvw;
     height: 100%;
     display:flex ;
     flex-direction: column;
@@ -306,16 +306,11 @@ small{
        
     }
     .menu{
-        border-radius: 50%;
+       
         height: 40px;
         width: 40px;
         border: 1px solid whitesmoke;
-        display: flex;
-        flex-direction: column;
         gap: 0.3rem;
-        justify-content: center;
-        align-items: center;
-        background-color: #1f1f1f;
     }
 
     .line{
@@ -330,20 +325,12 @@ small{
         font-size: 3rem;
         max-width: 15ch;
         -webkit-text-stroke-width: 1px;
-        -webkit-text-stroke-color: whitesmoke;
-        color: #1f1f1f;
-        font-weight:thin;
-        text-align: center;
-        font-variant-caps:all-petite-caps;
         line-height: 3rem;
     }
     h2{
         font-size: 1rem;
-        font-family: Verdana, Geneva, Tahoma, sans-serif;
         font-weight:lighter;
-        color: whitesmoke;
         max-width: 30ch;
-        opacity:69%;
         text-align: center;
         word-spacing: normal;
         line-height: 1.5rem;
@@ -357,33 +344,21 @@ small{
         align-items: center;
     }
     header>div{
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
         gap: 3rem;
         padding: 0rem 2rem 0rem 2rem;
-        overflow-x: hidden;
     }
                     /*end of header section*/
 
                   /* start of project section  */
     .project-section{
-        display: flex;
+  
         width: 100dvw;
-        flex-direction: column;
-        justify-content: center;
-        align-items: start;
         gap: 9rem;
         padding-bottom: 2rem;
-        overflow-x: hidden;
     }
     .project{
         width: 100%;
         height: 60dvh;
-        display: flex;
-        flex-direction: row;
-       
     }
             /*initializing projects components*/
     .project-number>h1{
@@ -391,175 +366,75 @@ small{
     }
     .project-number{
         width: 5dvw;
-        display: flex;
-        justify-content: end;
-        align-items: center;
-
     }
     .project-type{
         width: 20dvw;
         height: 100%;
-        display:flex ;
-        flex-direction: column;
-        justify-content:space-around;
-        align-items: center;
-
-        
     }
     .project-text{
-        width: auto;
         font-size:1rem;
         letter-spacing: 0.5rem;
-        font-weight:lighter;
-        text-align:center;
         rotate:90deg;
-    
+        line-height: 1rem;
+        -webkit-text-stroke-width:0cap;
     }
     .project-image>h1{              /* animation rotate of text button */
-        mix-blend-mode:difference;
-        position: absolute;
-        bottom: -1rem;
+        bottom: -1.3rem;
         right: 0rem;
         font-size: 2rem;
         font-weight:bolder;
-        -webkit-text-stroke-width: .5px;
-        animation: run 3s infinite alternate ease-in-out;
-        white-space: nowrap;
-    }
-    @keyframes run {
-        from {
-            transform:translate(0rem)
-        }
-        to {
-        transform: translate(-6rem);
-        }
+        -webkit-text-stroke-width: 0.7px;
     }
 
+
     .button-text{                   /* animation loop of text title */
-        opacity: 80%;
-        mix-blend-mode: difference;
         font-size:0.7rem;
         letter-spacing: 0.2rem;
-        text-align: center;
         font-weight: 100;
-        position: absolute;
-        white-space: nowrap;
-        animation: rotation 100s infinite linear;
-        
     }
-    @keyframes rotation {
-        from {
-          transform: rotate(0deg);
-        }
-        to {
-          transform: rotate(359deg);
-        }
-    }
-             /*end of initializing projects components*/
+           
+    /*end of initializing projects components*/
 
      /* first project styling */
 
     .project .project-image{    /*first project styling of specific images*/
         width: 74dvw;
-        height: 100%;
-        background-image: url(images/laniemoore-shop.jpg); 
-        background-position: center;
-        background-size:cover;
-        background-repeat: no-repeat;
-        position: relative;   
     }
     .project.two .project-image{    /*second project styling of specific images*/
         width: 74dvw;
-        height: 100%;
-        background-image: url(images/apax-visa-consultancy.jpg);
-        background-position: center;
-        background-size: cover;
-        background-repeat: no-repeat;
-        position: relative;
     }
     .project.three .project-image{    /*third project styling of specific images*/
         width: 74dvw;
-        height: 100%;
-        background-image: url(images/jessechedotal-coach.jpg);
-        background-position: center;
-        background-size: cover;
-        background-repeat: no-repeat;
-        position: relative;
+        
     }
     .project.four .project-image{    /*fourth project styling of specific images*/
         width: 74dvw;
-        height: 100%;
-        background-image: url(images/obsequium-lawfirm.jpg);
-        background-position: center;
-        background-size: cover;
-        background-repeat: no-repeat;
-        position: relative;
     }
     
     
     .project-button{                /*first project styling of button*/
-        border-radius: 50%;
         width: 60px;
         height: 60px;
         border: 1px solid rgb(224, 27, 204);
-        display: flex;
-        background-color: transparent;
-        justify-content: center;
-        align-items: center;
-        position: relative;
-        cursor: pointer;
+
     }
     .project.two .project-button{    /*second project styling of button*/
-        border-radius: 50%;
         border: 1px solid rgba(0, 55, 255, 0.874);
-        background-color: transparent;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        position: relative;
-       
     }
     .project.three .project-button{    /*third project styling of button*/
-        border-radius: 50%;
         border: 1px solid orange;
-        background-color: transparent;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        position: relative;
-       
     }
     .project.four .project-button{    /*fourth project styling of button*/
-        border-radius: 50%;
         border: 1px solid aqua;
-        background-color: transparent;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        position: relative;
-       
     }
     /* start of footer styling */
 
     footer>div{
         width: 100dvw;
         min-height: 70dvh;
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
-        position: relative;
-
-
-    }
-    footer>div>button{
-        background-color: transparent;
-        border: none;
-        cursor:pointer;
     }
 
     small{
-        position: absolute;
         bottom: 1rem;
         left: 1rem;
         font-size:0.5rem;
@@ -581,16 +456,11 @@ small{
        
     }
     .menu{
-        border-radius: 50%;
         height: 40px;
         width: 40px;
         border: 1px solid whitesmoke;
-        display: flex;
-        flex-direction: column;
         gap: 0.3rem;
-        justify-content: center;
-        align-items: center;
-        background-color: #1f1f1f;
+    
     }
 
     .line{
@@ -605,58 +475,35 @@ small{
         font-size: 5rem;
         max-width: 15ch;
         -webkit-text-stroke-width: 1px;
-        -webkit-text-stroke-color: whitesmoke;
-        color: #1f1f1f;
-        font-weight:thin;
-        text-align: center;
-        font-variant-caps:all-petite-caps;
         line-height: 4rem;
+        font-weight: thin;
     }
     h2{
         font-size: 1rem;
-        font-family: Verdana, Geneva, Tahoma, sans-serif;
         font-weight:lighter;
-        color: whitesmoke;
         max-width: 45ch;
-        opacity:69%;
-        text-align: center;
+        letter-spacing: normal;
         line-height: 1.5rem;
-    
     }
     header{
         width: 100dvw;
         min-height: 100dvh;  
-        display: flex;
-        justify-content: center;
-        align-items: center;
     }
     header>div{
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
         gap: 3rem;
         padding: 0rem 2rem 0rem 2rem;
-        overflow-x: hidden;
     }
                     /*end of header section*/
 
                   /* start of project section  */
     .project-section{
-        display: flex;
         width: 100dvw;
-        flex-direction: column;
-        justify-content: center;
-        align-items: start;
         gap: 9rem;
         padding-bottom: 2rem;
-        overflow-x: hidden;
     }
     .project{
         width: 100%;
         height: 75dvh;
-        display: flex;
-        flex-direction: row;
        
     }
             /*initializing projects components*/
@@ -665,175 +512,76 @@ small{
     }
     .project-number{
         width: 5dvw;
-        display: flex;
-        justify-content: end;
-        align-items: center;
-
     }
     .project-type{
         width: 20dvw;
         height: 100%;
-        display:flex ;
-        flex-direction: column;
-        justify-content:space-around;
-        align-items: center;
-
-        
     }
     .project-text{
         width: auto;
         font-size:1.5rem;
         letter-spacing: 0.5rem;
         font-weight:lighter;
-        text-align:center;
         rotate:90deg;
+        line-height: 1.5rem;
     
     }
     .project-image>h1{              /* animation rotate of text button */
-        mix-blend-mode:difference;
-        position: absolute;
         bottom: -1.5rem;
         right: 0rem;
         font-size: 3rem;
         font-weight:bolder;
         -webkit-text-stroke-width: .5px;
-        animation: run 3s infinite alternate ease-in-out;
-        white-space: nowrap;
-    }
-    @keyframes run {
-        from {
-            transform:translate(0rem)
-        }
-        to {
-        transform: translate(-6rem);
-        }
     }
 
     .button-text{                   /* animation loop of text title */
-        opacity: 80%;
-        mix-blend-mode: difference;
+      
         font-size:0.7rem;
         letter-spacing: 0.2rem;
-        text-align: center;
         font-weight: 100;
-        position: absolute;
-        white-space: nowrap;
-        animation: rotation 100s infinite linear;
+
         
     }
-    @keyframes rotation {
-        from {
-          transform: rotate(0deg);
-        }
-        to {
-          transform: rotate(359deg);
-        }
-    }
-             /*end of initializing projects components*/
+     /*end of initializing projects components*/
 
      /* first project styling */
 
     .project .project-image{    /*first project styling of specific images*/
         width: 74dvw;
-        height: 100%;
-        background-image: url(images/laniemoore-shop.jpg); 
-        background-position: center;
-        background-size:cover;
-        background-repeat: no-repeat;
-        position: relative;   
     }
     .project.two .project-image{    /*second project styling of specific images*/
-        width: 74dvw;
-        height: 100%;
-        background-image: url(images/apax-visa-consultancy.jpg);
-        background-position: center;
-        background-size: cover;
-        background-repeat: no-repeat;
-        position: relative;
+        width: 74dvw;        
     }
     .project.three .project-image{    /*third project styling of specific images*/
         width: 74dvw;
-        height: 100%;
-        background-image: url(images/jessechedotal-coach.jpg);
-        background-position: center;
-        background-size: cover;
-        background-repeat: no-repeat;
-        position: relative;
     }
     .project.four .project-image{    /*fourth project styling of specific images*/
         width: 74dvw;
-        height: 100%;
-        background-image: url(images/obsequium-lawfirm.jpg);
-        background-position: center;
-        background-size: cover;
-        background-repeat: no-repeat;
-        position: relative;
     }
     
     
     .project-button{                /*first project styling of button*/
-        border-radius: 50%;
         width: 60px;
         height: 60px;
-        border: 1px solid rgb(224, 27, 204);
-        display: flex;
-        background-color: transparent;
-        justify-content: center;
-        align-items: center;
-        position: relative;
-        cursor: pointer;
+        border: 1px solid rgb(224, 27, 204);  
     }
     .project.two .project-button{    /*second project styling of button*/
-        border-radius: 50%;
         border: 1px solid rgba(0, 55, 255, 0.874);
-        background-color: transparent;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        position: relative;
-       
     }
     .project.three .project-button{    /*third project styling of button*/
-        border-radius: 50%;
         border: 1px solid orange;
-        background-color: transparent;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        position: relative;
-       
     }
     .project.four .project-button{    /*fourth project styling of button*/
-        border-radius: 50%;
         border: 1px solid aqua;
-        background-color: transparent;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        position: relative;
-       
     }
     /* start of footer styling */
 
     footer>div{
         width: 100dvw;
         min-height: 70dvh;
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
-        position: relative;
-
-
-    }
-    footer>div>button{
-        background-color: transparent;
-        border: none;
-        cursor:pointer;
     }
 
     small{
-        position: absolute;
         bottom: 1rem;
         left: 1rem;
         font-size:0.5rem;
@@ -853,16 +601,11 @@ small{
        
     }
     .menu{
-        border-radius: 50%;
         height: 50px;
         width: 50px;
         border: 1px solid whitesmoke;
-        display: flex;
-        flex-direction: column;
         gap: 0.3rem;
-        justify-content: center;
-        align-items: center;
-        background-color: #1f1f1f;
+
     }
 
     .line{
@@ -878,55 +621,38 @@ small{
         max-width: 15ch;
         -webkit-text-stroke-width: 1px;
         -webkit-text-stroke-color: whitesmoke;
-        color: #1f1f1f;
         font-weight:thin;
         text-align: center;
-        font-variant-caps:all-petite-caps;
         line-height: 6rem;
     }
     h2{
-        font-size: 1.3rem;
-        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        font-size: 1rem;
         font-weight:lighter;
         color: whitesmoke;
         max-width: 45ch;
-        opacity:69%;
-        text-align: center;
-        line-height: 1.5rem;
+        letter-spacing: normal;
+        line-height: 1.6rem;
     
     }
     header{
         width: 100dvw;
         min-height: 100dvh;  
-        display: flex;
-        justify-content: center;
-        align-items: center;
     }
-    header>div{
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
+    header>div{  
         gap: 3rem;
         padding: 0rem 2rem 0rem 2rem;
-        overflow-x: hidden;
     }
                     /*end of header section*/
 
                   /* start of project section  */
     .project-section{
-        display: flex;
         width: 100dvw;
-        flex-direction: column;
-        justify-content: center;
-        align-items: start;
         gap: 15rem;
         padding-bottom: 2rem;
-        overflow-x: hidden;
     }
     .project{
         width: 100%;
-        height: 85dvh;
+        height: 70dvh;
         display: flex;
         flex-direction: row;
        
@@ -934,64 +660,36 @@ small{
             /*initializing projects components*/
     .project-number>h1{
         rotate: 90deg;
+        font-size: 5rem;
     }
     .project-number{
         width: 5dvw;
-        display: flex;
-        justify-content: end;
-        align-items: center;
-
     }
     .project-type{
         width: 20dvw;
         height: 100%;
-        display:flex ;
-        flex-direction: column;
-        justify-content:space-around;
-        align-items: center;
-
-        
     }
     .project-text{
         width: auto;
         font-size:2rem;
-        letter-spacing: 0.5rem;
+        letter-spacing: 0.2rem;
         font-weight:lighter;
-        text-align:center;
-        rotate:60deg;
+        rotate:75deg;
+        line-height: 1.8rem;
     
     }
     .project-image>h1{              /* animation rotate of text button */
-        mix-blend-mode:difference;
-        position: absolute;
-        bottom: -1.7rem;
+        bottom: -2.4rem;
         right: 0rem;
         font-size: 4rem;
         font-weight:bolder;
-        -webkit-text-stroke-width: .5px;
-        animation: run 3s infinite alternate ease-in-out;
-        white-space: nowrap;
+        -webkit-text-stroke-width: .8px;
+      
     }
-    @keyframes run {
-        from {
-            transform:translate(0rem)
-        }
-        to {
-        transform: translate(-6rem);
-        }
-    }
-
     .button-text{                   /* animation loop of text title */
-        opacity: 80%;
         mix-blend-mode: difference;
         font-size:0.9rem;
         letter-spacing: 0.4rem;
-        text-align: center;
-        font-weight: 100;
-        position: absolute;
-        white-space: nowrap;
-        animation: rotation 100s infinite linear;
-        
     }
     @keyframes rotation {
         from {
@@ -1006,106 +704,40 @@ small{
      /* first project styling */
 
     .project .project-image{    /*first project styling of specific images*/
-        width: 74dvw;
-        height: 100%;
-        background-image: url(images/laniemoore-shop.jpg); 
-        background-position: center;
-        background-size:cover;
-        background-repeat: no-repeat;
-        position: relative;   
+        width: 74dvw;  
     }
     .project.two .project-image{    /*second project styling of specific images*/
         width: 74dvw;
-        height: 100%;
-        background-image: url(images/apax-visa-consultancy.jpg);
-        background-position: center;
-        background-size: cover;
-        background-repeat: no-repeat;
-        position: relative;
     }
     .project.three .project-image{    /*third project styling of specific images*/
         width: 74dvw;
-        height: 100%;
-        background-image: url(images/jessechedotal-coach.jpg);
-        background-position: center;
-        background-size: cover;
-        background-repeat: no-repeat;
-        position: relative;
     }
     .project.four .project-image{    /*fourth project styling of specific images*/
         width: 74dvw;
-        height: 100%;
-        background-image: url(images/obsequium-lawfirm.jpg);
-        background-position: center;
-        background-size: cover;
-        background-repeat: no-repeat;
-        position: relative;
     }
     
     
     .project-button{                /*first project styling of button*/
-        border-radius: 50%;
         width: 80px;
         height: 80px;
         border: 1px solid rgb(224, 27, 204);
-        display: flex;
-        background-color: transparent;
-        justify-content: center;
-        align-items: center;
-        position: relative;
-        cursor: pointer;
     }
     .project.two .project-button{    /*second project styling of button*/
-        border-radius: 50%;
         border: 1px solid rgba(0, 55, 255, 0.874);
-        background-color: transparent;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        position: relative;
-       
     }
     .project.three .project-button{    /*third project styling of button*/
-        border-radius: 50%;
         border: 1px solid orange;
-        background-color: transparent;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        position: relative;
-       
     }
     .project.four .project-button{    /*fourth project styling of button*/
-        border-radius: 50%;
         border: 1px solid aqua;
-        background-color: transparent;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        position: relative;
-       
     }
     /* start of footer styling */
 
     footer>div{
         width: 100dvw;
         min-height: 70dvh;
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
-        position: relative;
-
-
     }
-    footer>div>button{
-        background-color: transparent;
-        border: none;
-        cursor:pointer;
-    }
-
     small{
-        position: absolute;
         bottom: 1rem;
         left: 1rem;
         font-size:0.6rem;
@@ -1126,16 +758,11 @@ small{
        
     }
     .menu{
-        border-radius: 50%;
         height: 60px;
         width: 60px;
         border: 1px solid whitesmoke;
-        display: flex;
-        flex-direction: column;
         gap: 0.4rem;
-        justify-content: center;
-        align-items: center;
-        background-color: #1f1f1f;
+ 
     }
 
     .line{
@@ -1150,237 +777,114 @@ small{
         font-size: 8rem;
         max-width: 15ch;
         -webkit-text-stroke-width: 1px;
-        -webkit-text-stroke-color: whitesmoke;
-        color: #1f1f1f;
         font-weight:thin;
-        text-align: center;
         font-variant-caps:all-petite-caps;
         line-height: 7rem;
        
     }
     h2{
-        font-size: 1.3rem;
-        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        font-size: 1.1rem;
         font-weight:lighter;
         color: whitesmoke;
-        max-width: 50ch;
-        opacity:69%;
-        text-align: center;
+        max-width: 55ch;
         line-height: 1.8rem;
+        letter-spacing: normal;
     
     }
     header{
         width: 100dvw;
         min-height: 100dvh;  
-        display: flex;
-        justify-content: center;
-        align-items: center;
     }
     header>div{
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
         gap: 3rem;
         padding: 0rem 2rem 0rem 2rem;
-        overflow-x: hidden;
     }
                     /*end of header section*/
 
                   /* start of project section  */
     .project-section{
-        display: flex;
         width: 100dvw;
-        flex-direction: column;
-        justify-content: center;
-        align-items: start;
         gap: 15rem;
         padding-bottom: 2rem;
-        overflow-x: hidden;
     }
     .project{
         width: 100%;
-        height: 85dvh;
-        display: flex;
-        flex-direction: row;
-       
+        height: 75dvh;
     }
             /*initializing projects components*/
     .project-number>h1{
         rotate: 90deg;
+        font-size: 5.5rem;
     }
     .project-number{
         width: 5dvw;
-        display: flex;
-        justify-content: end;
-        align-items: center;
-
     }
     .project-type{
         width: 20dvw;
         height: 100%;
-        display:flex ;
-        flex-direction: column;
-        justify-content:space-around;
-        align-items: center;
-
-        
     }
     .project-text{
         width: auto;
-        font-size:3rem;
-        letter-spacing: 0.5rem;
+        font-size:2.5rem;
+        letter-spacing: 0.2rem;
         font-weight:lighter;
-        text-align:center;
-        rotate:60deg;
-        line-height: 2.5rem;
-    
+        rotate:75deg;
+        line-height: 2rem;
     }
     .project-image>h1{              /* animation rotate of text button */
-        mix-blend-mode:difference;
-        position: absolute;
-        bottom: -2.5rem;
+        bottom: -2.8rem;
         right: 0rem;
-        font-size: 6rem;
+        font-size: 4rem;
         font-weight:bolder;
         -webkit-text-stroke-width: 1px;
-        animation: run 3s infinite alternate ease-in-out;
-        white-space: nowrap;
+    
     }
-    @keyframes run {
-        from {
-            transform:translate(0rem)
-        }
-        to {
-        transform: translate(-6rem);
-        }
-    }
-
     .button-text{                   /* animation loop of text title */
-        opacity: 80%;
-        mix-blend-mode: difference;
-        font-size:1.2rem;
-        letter-spacing: 0.5rem;
-        text-align: center;
+        font-size:1rem;
+        letter-spacing: 0.4rem;
         font-weight: 100;
-        position: absolute;
-        white-space: nowrap;
-        animation: rotation 100s infinite linear;
-        
+
     }
-    @keyframes rotation {
-        from {
-          transform: rotate(0deg);
-        }
-        to {
-          transform: rotate(359deg);
-        }
-    }
-             /*end of initializing projects components*/
+     /*end of initializing projects components*/
 
      /* first project styling */
 
     .project .project-image{    /*first project styling of specific images*/
-        width: 74dvw;
-        height: 100%;
-        background-image: url(images/laniemoore-shop.jpg); 
-        background-position: center;
-        background-size:cover;
-        background-repeat: no-repeat;
-        position: relative;   
+        width: 74dvw; 
     }
     .project.two .project-image{    /*second project styling of specific images*/
         width: 74dvw;
-        height: 100%;
-        background-image: url(images/apax-visa-consultancy.jpg);
-        background-position: center;
-        background-size: cover;
-        background-repeat: no-repeat;
-        position: relative;
     }
     .project.three .project-image{    /*third project styling of specific images*/
         width: 74dvw;
-        height: 100%;
-        background-image: url(images/jessechedotal-coach.jpg);
-        background-position: center;
-        background-size: cover;
-        background-repeat: no-repeat;
-        position: relative;
     }
     .project.four .project-image{    /*fourth project styling of specific images*/
         width: 74dvw;
-        height: 100%;
-        background-image: url(images/obsequium-lawfirm.jpg);
-        background-position: center;
-        background-size: cover;
-        background-repeat: no-repeat;
-        position: relative;
     }
     
     
     .project-button{                /*first project styling of button*/
-        border-radius: 50%;
-        width: 120px;
-        height: 120px;
+        width: 100px;
+        height: 100px;
         border: 1px solid rgb(224, 27, 204);
-        display: flex;
-        background-color: transparent;
-        justify-content: center;
-        align-items: center;
-        position: relative;
-        cursor: pointer;
     }
     .project.two .project-button{    /*second project styling of button*/
-        border-radius: 50%;
         border: 1px solid rgba(0, 55, 255, 0.874);
-        background-color: transparent;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        position: relative;
-       
     }
     .project.three .project-button{    /*third project styling of button*/
-        border-radius: 50%;
         border: 1px solid orange;
-        background-color: transparent;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        position: relative;
-       
     }
     .project.four .project-button{    /*fourth project styling of button*/
-        border-radius: 50%;
         border: 1px solid aqua;
-        background-color: transparent;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        position: relative;
-       
     }
     /* start of footer styling */
 
     footer>div{
         width: 100dvw;
-        min-height: 70dvh;
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
-        position: relative;
-
-
-    }
-    footer>div>button{
-        background-color: transparent;
-        border: none;
-        cursor:pointer;
+        min-height: 80dvh;
     }
 
     small{
-        position: absolute;
         bottom: 1rem;
         left: 1rem;
         font-size:0.6rem;
@@ -1402,20 +906,16 @@ small{
     }
     .menu{
         border-radius: 50%;
-        height: 80px;
-        width: 80px;
+        height: 70px;
+        width: 70px;
         border: 1px solid whitesmoke;
-        display: flex;
-        flex-direction: column;
         gap: 0.4rem;
-        justify-content: center;
-        align-items: center;
-        background-color: #1f1f1f;
+    
     }
 
     .line{
         border: 1px solid whitesmoke;
-        width: 20px;
+        width: 30px;
     }
                          /* end of nav section */
 
@@ -1424,57 +924,37 @@ small{
     h1{
         font-size: 9rem;
         max-width: 15ch;
-        -webkit-text-stroke-width: 1.5px;
-        -webkit-text-stroke-color: whitesmoke;
-        color: #1f1f1f;
+        -webkit-text-stroke-width: 1px;
         font-weight:thin;
-        text-align: center;
         font-variant-caps:all-petite-caps;
         line-height: 8rem;
     }
     h2{
-        font-size: 1.8rem;
-        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        font-size: 1.5rem;
         font-weight:lighter;
-        color: whitesmoke;
-        max-width: 50ch;
-        opacity:69%;
-        text-align: center;
+        max-width: 55ch;
+        letter-spacing: normal;
         line-height: 2.5rem;
-    
     }
     header{
         width: 100dvw;
         min-height: 100dvh;  
-        display: flex;
-        justify-content: center;
-        align-items: center;
     }
     header>div{
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
         gap: 3rem;
         padding: 0rem 2rem 0rem 2rem;
-        overflow-x: hidden;
     }
                     /*end of header section*/
 
                   /* start of project section  */
     .project-section{
-        display: flex;
         width: 100dvw;
-        flex-direction: column;
-        justify-content: center;
-        align-items: start;
         gap: 15rem;
-        padding-bottom: 2rem;
-        overflow-x: hidden;
+        padding-bottom: 2.5rem;
     }
     .project{
         width: 100%;
-        height: 85dvh;
+        height: 80dvh;
         display: flex;
         flex-direction: row;
        
@@ -1482,182 +962,82 @@ small{
             /*initializing projects components*/
     .project-number>h1{
         rotate: 90deg;
+        font-size: 8rem;
     }
     .project-number{
         width: 5dvw;
-        display: flex;
-        justify-content: end;
-        align-items: center;
-
     }
     .project-type{
         width: 20dvw;
         height: 100%;
-        display:flex ;
-        flex-direction: column;
-        justify-content:space-around;
-        align-items: center;
-
-        
     }
     .project-text{
         width: auto;
-        font-size:3.5rem;
-        letter-spacing: 0.6rem;
+        font-size:3.6rem;
+        letter-spacing: 0.3rem;
         font-weight:bold;
-        text-align:center;
-        rotate:60deg;
-        line-height: 2.5rem;
+        rotate:75deg;
+        line-height: 3rem;
     
     }
     .project-image>h1{              /* animation rotate of text button */
-        mix-blend-mode:difference;
-        position: absolute;
-        bottom: -2.9rem;
+        bottom: -3rem;
         right: 0rem;
-        font-size: 7rem;
+        font-size: 6rem;
         font-weight:bolder;
         -webkit-text-stroke-width: 1px;
-        animation: run 3s infinite alternate ease-in-out;
-        white-space: nowrap;
-    }
-    @keyframes run {
-        from {
-            transform:translate(0rem)
-        }
-        to {
-        transform: translate(-6rem);
-        }
     }
 
     .button-text{                   /* animation loop of text title */
-        opacity: 80%;
-        mix-blend-mode: difference;
-        font-size:1.4rem;
-        letter-spacing: 0.6rem;
+        font-size:1.1rem;
+        letter-spacing: 0.4rem;
         text-align: center;
         font-weight: 100;
-        position: absolute;
-        white-space: nowrap;
-        animation: rotation 100s infinite linear;
-        
     }
-    @keyframes rotation {
-        from {
-          transform: rotate(0deg);
-        }
-        to {
-          transform: rotate(359deg);
-        }
-    }
+
              /*end of initializing projects components*/
 
      /* first project styling */
 
     .project .project-image{    /*first project styling of specific images*/
-        width: 74dvw;
-        height: 100%;
-        background-image: url(images/laniemoore-shop.jpg); 
-        background-position: center;
-        background-size:cover;
-        background-repeat: no-repeat;
-        position: relative;   
+        width: 74dvw;  
     }
     .project.two .project-image{    /*second project styling of specific images*/
         width: 74dvw;
-        height: 100%;
-        background-image: url(images/apax-visa-consultancy.jpg);
-        background-position: center;
-        background-size: cover;
-        background-repeat: no-repeat;
-        position: relative;
+      
     }
     .project.three .project-image{    /*third project styling of specific images*/
         width: 74dvw;
-        height: 100%;
-        background-image: url(images/jessechedotal-coach.jpg);
-        background-position: center;
-        background-size: cover;
-        background-repeat: no-repeat;
-        position: relative;
     }
     .project.four .project-image{    /*fourth project styling of specific images*/
         width: 74dvw;
-        height: 100%;
-        background-image: url(images/obsequium-lawfirm.jpg);
-        background-position: center;
-        background-size: cover;
-        background-repeat: no-repeat;
-        position: relative;
     }
     
     
     .project-button{                /*first project styling of button*/
-        border-radius: 50%;
-        width: 140px;
-        height: 140px;
+        width: 120px;
+        height: 120px;
         border: 1px solid rgb(224, 27, 204);
-        display: flex;
-        background-color: transparent;
-        justify-content: center;
-        align-items: center;
-        position: relative;
-        cursor: pointer;
     }
     .project.two .project-button{    /*second project styling of button*/
-        border-radius: 50%;
         border: 1px solid rgba(0, 55, 255, 0.874);
-        background-color: transparent;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        position: relative;
-       
     }
     .project.three .project-button{    /*third project styling of button*/
-        border-radius: 50%;
         border: 1px solid orange;
-        background-color: transparent;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        position: relative;
-       
     }
     .project.four .project-button{    /*fourth project styling of button*/
-        border-radius: 50%;
         border: 1px solid aqua;
-        background-color: transparent;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        position: relative;
-       
     }
     /* start of footer styling */
 
     footer>div{
         width: 100dvw;
         min-height: 100dvh;
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
-        position: relative;
-
-
     }
-    footer>div>button{
-        background-color: transparent;
-        border: none;
-        cursor:pointer;
-    }
-
     small{
-        position: absolute;
         bottom: 1rem;
         left: 1rem;
-        font-size:1rem;
+        font-size:small;
     }
 /* end of footer styling */
 }
@@ -1673,20 +1053,14 @@ small{
        
     }
     .menu{
-        border-radius: 50%;
-        height: 100px;
-        width: 100px;
-        border: 2px solid whitesmoke;
-        display: flex;
-        flex-direction: column;
+        height: 70px;
+        width: 70px;
+        border: 1px solid whitesmoke;
         gap: 0.4rem;
-        justify-content: center;
-        align-items: center;
-        background-color: #1f1f1f;
     }
 
     .line{
-        border: 2px solid whitesmoke;
+        border: 1px solid whitesmoke;
         width: 40px;
     }
                          /* end of nav section */
@@ -1696,124 +1070,76 @@ small{
     h1{
         font-size: 11rem;
         max-width: 15ch;
-        -webkit-text-stroke-width: 2px;
-        -webkit-text-stroke-color: whitesmoke;
-        color: #1f1f1f;
+        -webkit-text-stroke-width: 1px;
         font-weight:thin;
         text-align: center;
         font-variant-caps:all-petite-caps;
         line-height: 10rem;
     }
     h2{
-        font-size: 2.2rem;
-        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        font-size: 1.5rem;
         font-weight:lighter;
         color: whitesmoke;
         max-width: 70ch;
-        opacity:69%;
-        text-align: center;
-        line-height: 4rem;
-        word-spacing: 0.2rem;
+        line-height: 2rem;
+        word-spacing:normal;
         letter-spacing: 0.2rem;
     
     }
     header{
         width: 100dvw;
         min-height: 100dvh;  
-        display: flex;
-        justify-content: center;
-        align-items: center;
     }
     header>div{
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
         gap: 4rem;
         padding: 0rem 2rem 0rem 2rem;
-        overflow: hidden;
     }
                     /*end of header section*/
 
                   /* start of project section  */
     .project-section{
-        display: flex;
         width: 100dvw;
-        flex-direction: column;
-        justify-content: center;
-        align-items: start;
         gap: 20rem;
-        padding-bottom: 2rem;
-        overflow-x: hidden;
+        padding-bottom: 2.5rem;
     }
     .project{
         width: 100%;
-        height: 80dvh;
-        display: flex;
-        flex-direction: row;
-       
+        height: 75dvh;
     }
             /*initializing projects components*/
     .project-number>h1{
         rotate: 90deg;
+        font-size: 10rem;
     }
     .project-number{
-        width: 10dvw;
-        display: flex;
-        justify-content: end;
-        align-items: center;
-
+        width: 5dvw;
     }
     .project-type{
-        width: 10dvw;
+        width: 20dvw;
         height: 100%;
-        display:flex ;
-        flex-direction: column;
-        justify-content:space-around;
-        align-items: center;
-
-        
     }
     .project-text{
         width: auto;
         font-size:4rem;
-        letter-spacing: 0.6rem;
+        letter-spacing: 0.2rem;
         font-weight:bold;
-        text-align:center;
-        rotate:60deg;
-        line-height: 4rem;
+        rotate:75deg;
+        line-height: 3.5rem;
     
     }
     .project-image>h1{              /* animation rotate of text button */
-        mix-blend-mode:difference;
-        position: absolute;
-        bottom: -3.5rem;
+        bottom: -4rem;
         right: 0rem;
         font-size: 7rem;
         font-weight:bolder;
-        -webkit-text-stroke-width: 2px;
-        animation: run 3s infinite alternate ease-in-out;
-        white-space: nowrap;
-    }
-    @keyframes run {
-        from {
-            transform:translate(0rem)
-        }
-        to {
-        transform: translate(-6rem);
-        }
+        -webkit-text-stroke-width: 1px;
     }
 
     .button-text{                   /* animation loop of text title */
-        opacity: 80%;
-        mix-blend-mode: difference;
-        font-size:2rem;
+        font-size:1.2rem;
         letter-spacing: 0.9rem;
         text-align: center;
         font-weight:lighter;
-        position: absolute;
-        white-space: nowrap;
-        animation: rotation 100s infinite linear;
         
     }
     @keyframes rotation {
@@ -1829,109 +1155,43 @@ small{
      /* first project styling */
 
     .project .project-image{    /*first project styling of specific images*/
-        width: 80dvw;
-        height: 100%;
-        background-image: url(images/laniemoore-shop.jpg); 
-        background-position: center;
-        background-size:cover;
-        background-repeat: no-repeat;
-        position: relative;   
+        width:74dvw; 
     }
     .project.two .project-image{    /*second project styling of specific images*/
-        width: 80dvw;
-        height: 100%;
-        background-image: url(images/apax-visa-consultancy.jpg);
-        background-position: center;
-        background-size: cover;
-        background-repeat: no-repeat;
-        position: relative;
+        width: 74dvw;
     }
     .project.three .project-image{    /*third project styling of specific images*/
-        width: 80dvw;
-        height: 100%;
-        background-image: url(images/jessechedotal-coach.jpg);
-        background-position: center;
-        background-size: cover;
-        background-repeat: no-repeat;
-        position: relative;
+        width: 74dvw;
     }
     .project.four .project-image{    /*fourth project styling of specific images*/
-        width: 80dvw;
-        height: 100%;
-        background-image: url(images/obsequium-lawfirm.jpg);
-        background-position: center;
-        background-size: cover;
-        background-repeat: no-repeat;
-        position: relative;
+        width: 74dvw;
     }
-    
     
     .project-button{                /*first project styling of button*/
-        border-radius: 50%;
-        width: 200px;
-        height: 200px;
+        width: 150px;
+        height: 150px;
         border: 2px solid rgb(224, 27, 204);
-        display: flex;
-        background-color: transparent;
-        justify-content: center;
-        align-items: center;
-        position: relative;
-        cursor: pointer;
     }
     .project.two .project-button{    /*second project styling of button*/
-        border-radius: 50%;
         border: 2px solid rgba(0, 55, 255, 0.874);
-        background-color: transparent;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        position: relative;
-       
     }
     .project.three .project-button{    /*third project styling of button*/
-        border-radius: 50%;
         border: 2px solid orange;
-        background-color: transparent;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        position: relative;
-       
     }
     .project.four .project-button{    /*fourth project styling of button*/
-        border-radius: 50%;
         border: 2px solid aqua;
-        background-color: transparent;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        position: relative;
-       
     }
     /* start of footer styling */
 
     footer>div{
         width: 100dvw;
         min-height: 100dvh;
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
-        position: relative;
-
-
     }
-    footer>div>button{
-        background-color: transparent;
-        border: none;
-        cursor:pointer;
-    }
-
     small{
         position: absolute;
         bottom: 2rem;
         left: 2rem;
-        font-size:1.5rem;
+        font-size:small;
     }
 /* end of footer styling */
 }
