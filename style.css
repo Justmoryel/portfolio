@@ -803,49 +803,26 @@ small{
     .project-container{
         width: 100dvw;
         height: 100dvh;
-        position: fixed;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        overflow: hidden;
         margin-top: -4rem;
     }
     .project-image-detail{              /*first project styling of specific images*/
         width: 100%;
         height: 60dvh;
-        background-image: url(images/laniemoore-shop.jpg);  
-        background-size: cover;
-        background-position: center;
-        background-repeat: no-repeat;
-        position: relative;
     }
 
     .project-image-detail.two{              /*second project styling of specific images*/
         width: 100dvw;
         height: 60dvh;
-        background-image: url(images/apax-visa-consultancy.jpg);  
-        background-size: cover;
-        background-position: center;
-        background-repeat: no-repeat;
-        position: relative;
+    
     }
     .project-image-detail.three{              /*three project styling of specific images*/
         width: 100dvw;
         height: 60dvh;
-        background-image: url(images/jessechedotal-coach.jpg);  
-        background-size: cover;
-        background-position: center;
-        background-repeat: no-repeat;
-        position:relative;
+       
     }
     .project-image-detail.four{              /*fourth project styling of specific images*/
         width: 100dvw;
         height: 60dvh;
-        background-image: url(images/obsequium-estab.jpg);  
-        background-size: cover;
-        background-position: center;
-        background-repeat: no-repeat;
-        position: relative;
     }
     .project-title>h1{                  /* project styling of specific of title */
         mix-blend-mode:hard-light;
@@ -921,31 +898,11 @@ small{
     .branding-image-container.one{
         min-width: 100%;
         height: 12dvw;
-        background-image: url(images/laniemoorecolorpallete.jpg);
-        background-size:cover;
-        background-repeat: no-repeat;
-        background-position: center;
+       
     }
 
-    .branding-image-container.two{
-        background-image: url(images/laniemoore-landing-page.jpg);
-        background-size:cover;
-        background-repeat: no-repeat;
-        background-position: center;
-    }
 
-    .branding-image-container.three{
-        background-image: url(images/laniemoore-laptop-two.jpg);
-        background-size:cover;
-        background-repeat: no-repeat;
-        background-position: center;
-    }
-    .branding-image-container.four{
-        background-image: url(images/laniemoore-laptop-front.jpg);
-        background-size:cover;
-        background-repeat: no-repeat;
-        background-position: center;
-    }
+
     .branding-image-container.two,                  /* second  project images branding style*/
     .branding-image-container.three, 
     .branding-image-container.four{
@@ -955,31 +912,10 @@ small{
     .branding-image-container.apax .one{
         min-width: 100%;
         height: 12dvh;
-        background-image: url(images/apaxcolorpallete.jpg);
-        background-size:cover;
-        background-repeat: no-repeat;
-        background-position: center;
+      
     }
 
-    .branding-image-container.apax .two{
-        background-image: url(images/apax-company-front.jpg);
-        background-size:cover;
-        background-repeat: no-repeat;
-        background-position: center;
-    }
-
-    .branding-image-container.apax .three{
-        background-image: url(images/apax-logo.jpg);
-        background-size:cover;
-        background-repeat: no-repeat;
-        background-position: center;
-    }
-    .branding-image-container.apax .four{
-        background-image: url(images/apax-brochure.jpg);
-        background-size:cover;
-        background-repeat: no-repeat;
-        background-position: center;
-    }
+  
 
     .branding-image-container.two,                  /* third  project images branding style*/
     .branding-image-container.three, 
@@ -990,32 +926,7 @@ small{
     .branding-image-container.jesse .one{
         min-width: 100%;
         height: 12dvh;
-        background-image: url(images/jessecolorpallete.jpg);
-        background-size:cover;
-        background-repeat: no-repeat;
-        background-position: center;
     }
-
-    .branding-image-container.jesse .two{
-        background-image: url(images/Jesse-hanging-wall.jpg);
-        background-size:cover;
-        background-repeat: no-repeat;
-        background-position: center;
-    }
-
-    .branding-image-container.jesse .three{
-        background-image: url(images/jesse-paper.jpg);
-        background-size:cover;
-        background-repeat: no-repeat;
-        background-position: center;
-    }
-    .branding-image-container.jesse .four{
-        background-image: url(images/jesse-langdingpage.jpg);
-        background-size:cover;
-        background-repeat: no-repeat;
-        background-position: center;
-    }
-
     .branding-image-container.two,                  /* fourth  project images branding style*/
     .branding-image-container.three, 
     .branding-image-container.four{
@@ -1025,31 +936,7 @@ small{
     .branding-image-container.obs .one{
         min-width: 100%;
         height: 12dvh;
-        background-image: url(images/obsequium-colorpallete.jpg);
-        background-size:cover;
-        background-repeat: no-repeat;
-        background-position: center;
-    }
-
-    .branding-image-container.obs .two{
-        background-image: url(images/obsequium-lawfirm.jpg);
-        background-size:cover;
-        background-repeat: no-repeat;
-        background-position: center;
-
-    }
-
-    .branding-image-container.obs .three{
-        background-image: url(images/obsequium-laptop.jpg);
-        background-size:cover;
-        background-repeat: no-repeat;
-        background-position: center;
-    }
-    .branding-image-container.obs .four{
-        background-image: url(images/obsequium-phone.jpg);
-        background-size:cover;
-        background-repeat: no-repeat;
-        background-position: center;
+    
     }
     /*-------------end style of work projects detail------------------------*/
 
