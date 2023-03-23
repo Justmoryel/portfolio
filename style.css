@@ -293,6 +293,361 @@ small{
     font-size:1.5rem;
 }
 
+
+                          /*------ end of home page footer styling----- */
+                        /* -------start of project detail page-------*/
+
+    .project-container{
+        width: 100dvw;
+        height: 90dvh;
+        position: fixed;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .project-image-detail{              /*first project styling of specific images*/
+        width: 100%;
+        height: 80dvh;
+        background-image: url(images/laniemoore-shop.jpg);  
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+        position: relative;
+    }
+
+    .project-image-detail.two{              /*second project styling of specific images*/
+        width: 100dvw;
+        height: 80dvh;
+        background-image: url(images/apax-visa-consultancy.jpg);  
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+        position: relative;
+    }
+    .project-image-detail.three{              /*three project styling of specific images*/
+        width: 100dvw;
+        height: 80dvh;
+        background-image: url(images/jessechedotal-coach.jpg);  
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+        position:relative;
+    }
+    .project-image-detail.four{              /*fourth project styling of specific images*/
+        width: 100dvw;
+        height: 80dvh;
+        background-image: url(images/obsequium-estab.jpg);  
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+        position: relative;
+    }
+    .project-title>h1{                  /* project styling of specific of title */
+        mix-blend-mode:hard-light;
+        -webkit-text-stroke-width: 0.5px;
+        position: absolute;
+        top: 0rem;
+        left: 1rem;
+        font-size:6rem;
+    }
+
+    .project-description{               /* project styling of background of the parag */
+        max-width: 1200px;
+        height: 20dvh;
+        bottom: 3rem;
+        right: 0rem;
+        position: absolute;
+        background-color: rgba(0, 0, 0, 0.75);
+        opacity: 70%;
+        display: flex;
+        justify-content: center;
+        align-items:center;
+        overflow: hidden;
+
+    }
+    .project-description>p{         /* project styling description parag of project */
+        text-align:justify;
+        padding: 1rem 3rem 1rem 3rem;
+        font-size: 1.5rem;
+        font-weight: 100;
+        text-indent: 3rem;
+        line-height: 2.7rem;
+        letter-spacing: 0.1rem;
+        overflow: hidden;
+    }
+    .project-wrapper-case{
+        width: 100dvw;
+        display: flex;
+        justify-content: center;
+        align-items: start;
+        flex-direction: column;
+    }
+    .empty{
+        width: 100dvw;
+        height: 100dvh;
+        z-index: 1;
+        position: relative;
+        overflow: hidden;
+    }
+
+    .project-branding-container{      /* project styling branding/casestudy of project */
+        width: 80%;
+        height: auto;
+        position: relative;
+        z-index: 1;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        background-color: rgba(7, 4, 2, 0.75);
+        overflow: hidden;
+    }
+
+    .branding-image-container{
+        min-width: 80%;
+        padding: 8rem 0rem 8rem 0rem;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        row-gap: 8rem;
+    }
+
+    .branding-image-container.two,                  /* first project images branding style*/
+    .branding-image-container.three, 
+    .branding-image-container.four{
+        min-width: 100%;
+        height: 65dvh;
+    }
+    .branding-image-container.one{
+        min-width: 100%;
+        height: 5dvw;
+        background-image: url(images/laniemoorecolorpallete.jpg);
+        background-size:cover;
+        background-repeat: no-repeat;
+        background-position: center;
+    }
+
+    .branding-image-container.two{
+        background-image: url(images/laniemoore-landing-page.jpg);
+        background-size:cover;
+        background-repeat: no-repeat;
+        background-position: center;
+    }
+
+    .branding-image-container.three{
+        background-image: url(images/laniemoore-laptop-two.jpg);
+        background-size:cover;
+        background-repeat: no-repeat;
+        background-position: center;
+    }
+    .branding-image-container.four{
+        background-image: url(images/laniemoore-laptop-front.jpg);
+        background-size:cover;
+        background-repeat: no-repeat;
+        background-position: center;
+    }
+    .branding-image-container.two,                  /* second  project images branding style*/
+    .branding-image-container.three, 
+    .branding-image-container.four{
+        min-width: 100%;
+        height: 65dvh;
+    }
+    .branding-image-container.apax .one{
+        min-width: 100%;
+        height: 5dvh;
+        background-image: url(images/apaxcolorpallete.jpg);
+        background-size:cover;
+        background-repeat: no-repeat;
+        background-position: center;
+    }
+
+    .branding-image-container.apax .two{
+        background-image: url(images/apax-company-front.jpg);
+        background-size:cover;
+        background-repeat: no-repeat;
+        background-position: center;
+    }
+
+    .branding-image-container.apax .three{
+        background-image: url(images/apax-logo.jpg);
+        background-size:cover;
+        background-repeat: no-repeat;
+        background-position: center;
+    }
+    .branding-image-container.apax .four{
+        background-image: url(images/apax-brochure.jpg);
+        background-size:cover;
+        background-repeat: no-repeat;
+        background-position: center;
+    }
+
+    .branding-image-container.two,                  /* third  project images branding style*/
+    .branding-image-container.three, 
+    .branding-image-container.four{
+        min-width: 100%;
+        height: 65dvh;
+    }
+    .branding-image-container.jesse .one{
+        min-width: 100%;
+        height: 5dvh;
+        background-image: url(images/jessecolorpallete.jpg);
+        background-size:cover;
+        background-repeat: no-repeat;
+        background-position: center;
+    }
+
+    .branding-image-container.jesse .two{
+        background-image: url(images/Jesse-hanging-wall.jpg);
+        background-size:cover;
+        background-repeat: no-repeat;
+        background-position: center;
+    }
+
+    .branding-image-container.jesse .three{
+        background-image: url(images/jesse-paper.jpg);
+        background-size:cover;
+        background-repeat: no-repeat;
+        background-position: center;
+    }
+    .branding-image-container.jesse .four{
+        background-image: url(images/jesse-langdingpage.jpg);
+        background-size:cover;
+        background-repeat: no-repeat;
+        background-position: center;
+    }
+
+    .branding-image-container.two,                  /* fourth  project images branding style*/
+    .branding-image-container.three, 
+    .branding-image-container.four{
+        min-width: 100%;
+        height: 65dvh;
+    }
+    .branding-image-container.obs .one{
+        min-width: 100%;
+        height: 5dvh;
+        background-image: url(images/obsequium-colorpallete.jpg);
+        background-size:cover;
+        background-repeat: no-repeat;
+        background-position: center;
+    }
+
+    .branding-image-container.obs .two{
+        background-image: url(images/obsequium-lawfirm.jpg);
+        background-size:cover;
+        background-repeat: no-repeat;
+        background-position: center;
+
+    }
+
+    .branding-image-container.obs .three{
+        background-image: url(images/obsequium-laptop.jpg);
+        background-size:cover;
+        background-repeat: no-repeat;
+        background-position: center;
+    }
+    .branding-image-container.obs .four{
+        background-image: url(images/obsequium-phone.jpg);
+        background-size:cover;
+        background-repeat: no-repeat;
+        background-position: center;
+    }
+    /*end style of work projects detail*/
+
+
+    /*start style of project footer*/
+
+    .project-footer, .about-footer{
+        position: relative;
+        z-index: 1;
+        background-color: #1f1f1f;
+        width: 100dvw;
+        min-height: 100dvh;
+        display: flex;
+        flex-direction: column;
+        justify-content:space-evenly;
+        align-items: center;
+        gap: 2rem;
+    }
+    .project-footer>h1, .about-footer>h1{
+        font-size: 7.5rem;
+        max-width: 55ch;
+        padding: 2rem 4rem 2rem 4rem;
+        -webkit-text-stroke-width: 1px;
+        line-height: normal;
+       
+    }
+    .project-footer>h1>span{
+        -webkit-text-stroke-color: aqua;
+        -webkit-text-stroke-width: 1px;
+    }
+    .project-button-container{
+        width: 100%;
+        display: flex;
+        justify-content:space-around;
+        align-items:center;
+        padding-bottom: 4rem;
+    }
+    button.circle{
+        cursor: pointer;
+        background-color: transparent;
+    }
+    .project-button-container .circle.white{
+        width: 140px;
+        height: 140px;
+        border-radius: 50%;
+        border:1px solid whitesmoke;
+        position: relative;
+        justify-content: center;
+        align-items: center;
+        display: flex;
+    }
+    .project-button-container .circle.orange{
+        width: 140px;
+        height: 140px;
+        border-radius: 50%;
+        border:1px solid orange;
+        position: relative;
+        justify-content: center;
+        align-items: center;
+        display: flex;
+    }
+    .circle>h2{
+        font-size: 1.4rem;
+        white-space:nowrap;
+        letter-spacing:0.2rem;
+        font-weight: lighter;
+        text-align: center;
+    }
+    .circle.white>h2{
+        animation: rotate_white 200s infinite linear;
+    }
+    .circle.orange>h2{
+        animation: rotate_orange 200s infinite linear;
+    }
+
+    @keyframes rotate_white {
+        from {
+        transform: rotate(359deg);
+        }
+        to {
+        transform: rotate(0deg);
+        }
+    }
+
+
+    @keyframes rotate_orange {
+        from {
+        transform: rotate(0deg);
+        }
+        to {
+        transform: rotate(359deg);
+        }
+    }
+
+   
+   /* -------end of project detail page----*/
+
 @media (max-width: 600px) {     /* Styles for screens smaller than 768px */
 
                                 /* Home Page style */
@@ -501,301 +856,300 @@ small{
         font-size:2rem;
     }
 
-.project-description{               /* project styling of background of the parag */
-    width: 100dvw;
-    height: 30dvh;
-    bottom: 3rem;
-    right: 0rem;
-    position: absolute;
-    background-color: rgba(0, 0, 0, 0.75);
-    opacity: 70%;
-    display: flex;
-    justify-content: center;
-    align-items:center;
-    overflow: hidden;
+    .project-description{               /* project styling of background of the parag */
+        width: 100dvw;
+        height: 40dvh;
+        bottom: 3rem;
+        right: 0rem;
+        position: absolute;
+        background-color: rgba(0, 0, 0, 0.75);
+        opacity: 70%;
+        display: flex;
+        justify-content: center;
+        align-items:center;
+        overflow:hidden;
     
-}
-.project-description>p{         /* project styling description parag of project */
-    text-align:justify;
-    padding: 1rem 1rem 1rem 1rem;
-    font-size: 0.8rem;
-    font-weight: 100;
-    text-indent: 3rem;
-    line-height: 1.2rem;
-    letter-spacing: 0.1rem;
-    overflow: hidden;
-    border: 1px solid wheat;
-}
-
-.empty{
-    width: 100dvw;
-    height: 100dvh;
-    z-index: 1;
-    position: relative;
-    overflow: hidden;
-}
-
-.project-branding-container{      /* project styling branding/casestudy of project */
-    width: 100dvw;
-    height: auto;
-    position: relative;
-    z-index: 1;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    background-color: rgba(7, 4, 2, 0.75);
-    overflow: hidden;
-}
-
-.branding-image-container{
-    min-width: 80dvw;
-    padding: 2rem 0rem 2rem 0rem;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    row-gap: 4rem;
-}
-
-.branding-image-container.two,                  /* first project images branding style*/
-.branding-image-container.three, 
-.branding-image-container.four{
-    min-width: 100%;
-    height: 40dvh;
-}
-.branding-image-container.one{
-    min-width: 100%;
-    height: 12dvw;
-    background-image: url(images/laniemoorecolorpallete.jpg);
-    background-size:cover;
-    background-repeat: no-repeat;
-    background-position: center;
-}
-
-.branding-image-container.two{
-    background-image: url(images/laniemoore-landing-page.jpg);
-    background-size:cover;
-    background-repeat: no-repeat;
-    background-position: center;
-}
-
-.branding-image-container.three{
-    background-image: url(images/laniemoore-laptop-two.jpg);
-    background-size:cover;
-    background-repeat: no-repeat;
-    background-position: center;
-}
-.branding-image-container.four{
-    background-image: url(images/laniemoore-laptop-front.jpg);
-    background-size:cover;
-    background-repeat: no-repeat;
-    background-position: center;
-}
-
-
-.branding-image-container.two,                  /* second  project images branding style*/
-.branding-image-container.three, 
-.branding-image-container.four{
-    min-width: 100d%;
-    height: 40dvh;;
-}
-.branding-image-container.apax .one{
-    min-width: 100%;
-    height: 12dvh;
-    background-image: url(images/apaxcolorpallete.jpg);
-    background-size:cover;
-    background-repeat: no-repeat;
-    background-position: center;
-}
-
-.branding-image-container.apax .two{
-    background-image: url(images/apax-company-front.jpg);
-    background-size:cover;
-    background-repeat: no-repeat;
-    background-position: center;
-
-}
-
-.branding-image-container.apax .three{
-    background-image: url(images/apax-logo.jpg);
-    background-size:cover;
-    background-repeat: no-repeat;
-    background-position: center;
-}
-.branding-image-container.apax .four{
-    background-image: url(images/apax-brochure.jpg);
-    background-size:cover;
-    background-repeat: no-repeat;
-    background-position: center;
-}
-
-.branding-image-container.two,                  /* third  project images branding style*/
-.branding-image-container.three, 
-.branding-image-container.four{
-    min-width: 100%;
-    height: 40dvh;
-}
-.branding-image-container.jesse .one{
-    min-width: 100%;
-    height: 12dvh;
-    background-image: url(images/jessecolorpallete.jpg);
-    background-size:cover;
-    background-repeat: no-repeat;
-    background-position: center;
-}
-
-.branding-image-container.jesse .two{
-    background-image: url(images/Jesse-hanging-wall.jpg);
-    background-size:cover;
-    background-repeat: no-repeat;
-    background-position: center;
-
-}
-
-.branding-image-container.jesse .three{
-    background-image: url(images/jesse-paper.jpg);
-    background-size:cover;
-    background-repeat: no-repeat;
-    background-position: center;
-}
-.branding-image-container.jesse .four{
-    background-image: url(images/jesse-langdingpage.jpg);
-    background-size:cover;
-    background-repeat: no-repeat;
-    background-position: center;
-}
-
-.branding-image-container.two,                  /* fourth  project images branding style*/
-.branding-image-container.three, 
-.branding-image-container.four{
-    min-width: 100%;
-    height: 40dvh;
-}
-.branding-image-container.obs .one{
-    min-width: 100%;
-    height: 12dvh;
-    background-image: url(images/obsequium-colorpallete.jpg);
-    background-size:cover;
-    background-repeat: no-repeat;
-    background-position: center;
-}
-
-.branding-image-container.obs .two{
-    background-image: url(images/obsequium-lawfirm.jpg);
-    background-size:cover;
-    background-repeat: no-repeat;
-    background-position: center;
-
-}
-
-.branding-image-container.obs .three{
-    background-image: url(images/obsequium-laptop.jpg);
-    background-size:cover;
-    background-repeat: no-repeat;
-    background-position: center;
-}
-.branding-image-container.obs .four{
-    background-image: url(images/obsequium-phone.jpg);
-    background-size:cover;
-    background-repeat: no-repeat;
-    background-position: center;
-}
-/*-------------end style of work projects detail------------------------*/
-
-
-/*-------------start style of project footer ------------------------*/
-
-.project-footer, .about-footer{
-    position: relative;
-    z-index: 1;
-    background-color: #1f1f1f;
-    width: 100dvw;
-    min-height: 80dvh;
-    display: flex;
-    flex-direction: column;
-    justify-content:space-evenly;
-    align-items: center;
-}
-.project-footer>h1, .about-footer>h1{
-    font-size: 3rem;
-    max-width: 25ch;
-    padding: 2rem 2rem 2rem 2rem;
-    -webkit-text-stroke-width: 0.5px;
-    line-height: 2.5rem;
-}
-.project-footer>h1>span{
-    -webkit-text-stroke-color: aqua;
-    -webkit-text-stroke-width: 0.5px;
-}
-.project-button-container{
-    width: 100%;
-    display: flex;
-    justify-content:space-around;
-    align-items:center;
-}
-button.circle{
-    cursor: pointer;
-    background-color: transparent;
-}
-.project-button-container .circle.white{
-    width: 60px;
-    height: 60px;
-    border-radius: 50%;
-    border:1px solid whitesmoke;
-    position: relative;
-    justify-content: center;
-    align-items: center;
-    display: flex;
-}
-.project-button-container .circle.orange{
-    width: 60px;
-    height: 60px;
-    border-radius: 50%;
-    border:1px solid orange;
-    position: relative;
-    justify-content: center;
-    align-items: center;
-    display: flex;
-}
-.circle>h2{
-    font-size: 0.8rem;
-    white-space:nowrap;
-    letter-spacing:0.1rem;
-    font-weight: lighter;
-    text-align: center;
-}
-.circle.white>h2{
-    animation: rotate_white 200s infinite linear;
-}
-.circle.orange>h2{
-    animation: rotate_orange 200s infinite linear;
-}
-
-@keyframes rotate_white {
-    from {
-      transform: rotate(359deg);
     }
-    to {
-      transform: rotate(0deg);
+    .project-description>p{         /* project styling description parag of project */
+        text-align:justify;
+        padding: 1rem 1rem 1rem 1rem;
+        font-size: 0.7rem;
+        font-weight: 100;
+        text-indent: 3rem;
+        line-height: 1.2rem;
+        letter-spacing: 0.1rem;
+        overflow: hidden;
     }
-}
+
+    .empty{
+        width: 100dvw;
+        height: 100dvh;
+        z-index: 1;
+        position: relative;
+        overflow: hidden;
+    }
+
+    .project-branding-container{      /* project styling branding/casestudy of project */
+        width: 100dvw;
+        height: auto;
+        position: relative;
+        z-index: 1;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        background-color: rgba(7, 4, 2, 0.75);
+        overflow: hidden;
+    }
+
+    .branding-image-container{
+        min-width: 80dvw;
+        padding: 2rem 0rem 2rem 0rem;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        row-gap: 4rem;
+    }
+
+    .branding-image-container.two,                  /* first project images branding style*/
+    .branding-image-container.three, 
+    .branding-image-container.four{
+        min-width: 100%;
+        height: 40dvh;
+    }
+    .branding-image-container.one{
+        min-width: 100%;
+        height: 12dvw;
+        background-image: url(images/laniemoorecolorpallete.jpg);
+        background-size:cover;
+        background-repeat: no-repeat;
+        background-position: center;
+    }
+
+    .branding-image-container.two{
+        background-image: url(images/laniemoore-landing-page.jpg);
+        background-size:cover;
+        background-repeat: no-repeat;
+        background-position: center;
+    }
+
+    .branding-image-container.three{
+        background-image: url(images/laniemoore-laptop-two.jpg);
+        background-size:cover;
+        background-repeat: no-repeat;
+        background-position: center;
+    }
+    .branding-image-container.four{
+        background-image: url(images/laniemoore-laptop-front.jpg);
+        background-size:cover;
+        background-repeat: no-repeat;
+        background-position: center;
+    }
+    .branding-image-container.two,                  /* second  project images branding style*/
+    .branding-image-container.three, 
+    .branding-image-container.four{
+        min-width: 100%;
+        height: 40dvh;;
+    }
+    .branding-image-container.apax .one{
+        min-width: 100%;
+        height: 12dvh;
+        background-image: url(images/apaxcolorpallete.jpg);
+        background-size:cover;
+        background-repeat: no-repeat;
+        background-position: center;
+    }
+
+    .branding-image-container.apax .two{
+        background-image: url(images/apax-company-front.jpg);
+        background-size:cover;
+        background-repeat: no-repeat;
+        background-position: center;
+    }
+
+    .branding-image-container.apax .three{
+        background-image: url(images/apax-logo.jpg);
+        background-size:cover;
+        background-repeat: no-repeat;
+        background-position: center;
+    }
+    .branding-image-container.apax .four{
+        background-image: url(images/apax-brochure.jpg);
+        background-size:cover;
+        background-repeat: no-repeat;
+        background-position: center;
+    }
+
+    .branding-image-container.two,                  /* third  project images branding style*/
+    .branding-image-container.three, 
+    .branding-image-container.four{
+        min-width: 100%;
+        height: 40dvh;
+    }
+    .branding-image-container.jesse .one{
+        min-width: 100%;
+        height: 12dvh;
+        background-image: url(images/jessecolorpallete.jpg);
+        background-size:cover;
+        background-repeat: no-repeat;
+        background-position: center;
+    }
+
+    .branding-image-container.jesse .two{
+        background-image: url(images/Jesse-hanging-wall.jpg);
+        background-size:cover;
+        background-repeat: no-repeat;
+        background-position: center;
+    }
+
+    .branding-image-container.jesse .three{
+        background-image: url(images/jesse-paper.jpg);
+        background-size:cover;
+        background-repeat: no-repeat;
+        background-position: center;
+    }
+    .branding-image-container.jesse .four{
+        background-image: url(images/jesse-langdingpage.jpg);
+        background-size:cover;
+        background-repeat: no-repeat;
+        background-position: center;
+    }
+
+    .branding-image-container.two,                  /* fourth  project images branding style*/
+    .branding-image-container.three, 
+    .branding-image-container.four{
+        min-width: 100%;
+        height: 40dvh;
+    }
+    .branding-image-container.obs .one{
+        min-width: 100%;
+        height: 12dvh;
+        background-image: url(images/obsequium-colorpallete.jpg);
+        background-size:cover;
+        background-repeat: no-repeat;
+        background-position: center;
+    }
+
+    .branding-image-container.obs .two{
+        background-image: url(images/obsequium-lawfirm.jpg);
+        background-size:cover;
+        background-repeat: no-repeat;
+        background-position: center;
+
+    }
+
+    .branding-image-container.obs .three{
+        background-image: url(images/obsequium-laptop.jpg);
+        background-size:cover;
+        background-repeat: no-repeat;
+        background-position: center;
+    }
+    .branding-image-container.obs .four{
+        background-image: url(images/obsequium-phone.jpg);
+        background-size:cover;
+        background-repeat: no-repeat;
+        background-position: center;
+    }
+    /*-------------end style of work projects detail------------------------*/
 
 
-@keyframes rotate_orange {
-    from {
-      transform: rotate(0deg);
-    }
-    to {
-      transform: rotate(359deg);
-    }
-}
+    /*-------------start style of project footer ------------------------*/
 
-}
-/*-------------end style of project footer ------------------------*/
+    .project-footer, .about-footer{
+        position: relative;
+        z-index: 1;
+        background-color: #1f1f1f;
+        width: 100dvw;
+        min-height: 80dvh;
+        display: flex;
+        flex-direction: column;
+        justify-content:space-evenly;
+        align-items: center;
+    }
+    .project-footer>h1, .about-footer>h1{
+        font-size: 3rem;
+        max-width: 25ch;
+        padding: 2rem 2rem 2rem 2rem;
+        -webkit-text-stroke-width: 0.5px;
+        line-height: normal;
+    }
+    .project-footer>h1{
+        padding-bottom: 5rem;
+    }
+    .project-footer>h1>span{
+        -webkit-text-stroke-color: aqua;
+        -webkit-text-stroke-width: 0.5px;
+    }
+    .project-button-container{
+        width: 100%;
+        display: flex;
+        justify-content:space-around;
+        align-items:center;
+        padding-bottom: 8rem;
+    }
+    button.circle{
+        cursor: pointer;
+        background-color: transparent;
+    }
+    .project-button-container .circle.white{
+        width: 60px;
+        height: 60px;
+        border-radius: 50%;
+        border:1px solid whitesmoke;
+        position: relative;
+        justify-content: center;
+        align-items: center;
+        display: flex;
+    }
+    .project-button-container .circle.orange{
+        width: 60px;
+        height: 60px;
+        border-radius: 50%;
+        border:1px solid orange;
+        position: relative;
+        justify-content: center;
+        align-items: center;
+        display: flex;
+    }
+    .circle>h2{
+        font-size: 0.8rem;
+        white-space:nowrap;
+        letter-spacing:0.1rem;
+        font-weight: lighter;
+        text-align: center;
+    }
+    .circle.white>h2{
+        animation: rotate_white 200s infinite linear;
+    }
+    .circle.orange>h2{
+        animation: rotate_orange 200s infinite linear;
+    }
+
+    @keyframes rotate_white {
+        from {
+        transform: rotate(359deg);
+        }
+        to {
+        transform: rotate(0deg);
+        }
+    }
+
+
+    @keyframes rotate_orange {
+        from {
+        transform: rotate(0deg);
+        }
+        to {
+        transform: rotate(359deg);
+        }
+    }
+
+    }
+/*-------------end style of project page ------------------------*/
     
 
-}
+
 
 
 @media (min-width: 600px) and (max-width:800px) {
@@ -939,8 +1293,354 @@ button.circle{
         left: 1rem;
         font-size:0.5rem;
     }
-/* end of footer styling */
+                        /*------ end of home page footer styling----- */
+                        /* -------start of project detail page-------*/
+
+    .project-container{
+        width: 100dvw;
+        height: 100dvh;
+        position: fixed;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        overflow: hidden;
+        margin-top: -4rem;
+    }
+    .project-image-detail{              /*first project styling of specific images*/
+        width: 100%;
+        height: 60dvh;
+        background-image: url(images/laniemoore-shop.jpg);  
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+        position: relative;
+    }
+
+    .project-image-detail.two{              /*second project styling of specific images*/
+        width: 100dvw;
+        height: 60dvh;
+        background-image: url(images/apax-visa-consultancy.jpg);  
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+        position: relative;
+    }
+    .project-image-detail.three{              /*three project styling of specific images*/
+        width: 100dvw;
+        height: 60dvh;
+        background-image: url(images/jessechedotal-coach.jpg);  
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+        position:relative;
+    }
+    .project-image-detail.four{              /*fourth project styling of specific images*/
+        width: 100dvw;
+        height: 60dvh;
+        background-image: url(images/obsequium-estab.jpg);  
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+        position: relative;
+    }
+    .project-title>h1{                  /* project styling of specific of title */
+        mix-blend-mode:hard-light;
+        -webkit-text-stroke-width: 0.5px;
+        position: absolute;
+        top: 0rem;
+        left: 1rem;
+        font-size:2rem;
+    }
+
+    .project-description{               /* project styling of background of the parag */
+        width: 100dvw;
+        height: 30dvh;
+        bottom: 3rem;
+        right: 0rem;
+        position: absolute;
+        background-color: rgba(0, 0, 0, 0.75);
+        opacity: 70%;
+        display: flex;
+        justify-content: center;
+        align-items:center;
+        overflow: hidden;
+
+    }
+    .project-description>p{         /* project styling description parag of project */
+        text-align:justify;
+        padding: 1rem 1rem 1rem 1rem;
+        font-size: 1rem;
+        font-weight: 100;
+        text-indent: 3rem;
+        line-height: 1.5rem;
+        letter-spacing: 0.1rem;
+        overflow: hidden;
+    }
+
+    .empty{
+        width: 100dvw;
+        height: 100dvh;
+        z-index: 1;
+        position: relative;
+        overflow: hidden;
+    }
+
+    .project-branding-container{      /* project styling branding/casestudy of project */
+        width: 100dvw;
+        height: auto;
+        position: relative;
+        z-index: 1;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        background-color: rgba(7, 4, 2, 0.75);
+        overflow: hidden;
+    }
+
+    .branding-image-container{
+        min-width: 80dvw;
+        padding: 2rem 0rem 2rem 0rem;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        row-gap: 4rem;
+    }
+
+    .branding-image-container.two,                  /* first project images branding style*/
+    .branding-image-container.three, 
+    .branding-image-container.four{
+        min-width: 100%;
+        height: 40dvh;
+    }
+    .branding-image-container.one{
+        min-width: 100%;
+        height: 15dvw;
+        background-image: url(images/laniemoorecolorpallete.jpg);
+        background-size:cover;
+        background-repeat: no-repeat;
+        background-position: center;
+    }
+
+    .branding-image-container.two{
+        background-image: url(images/laniemoore-landing-page.jpg);
+        background-size:cover;
+        background-repeat: no-repeat;
+        background-position: center;
+    }
+
+    .branding-image-container.three{
+        background-image: url(images/laniemoore-laptop-two.jpg);
+        background-size:cover;
+        background-repeat: no-repeat;
+        background-position: center;
+    }
+    .branding-image-container.four{
+        background-image: url(images/laniemoore-laptop-front.jpg);
+        background-size:cover;
+        background-repeat: no-repeat;
+        background-position: center;
+    }
+    .branding-image-container.two,                  /* second  project images branding style*/
+    .branding-image-container.three, 
+    .branding-image-container.four{
+        min-width: 100%;
+        height: 40dvh;;
+    }
+    .branding-image-container.apax .one{
+        min-width: 100%;
+        height: 15dvh;
+        background-image: url(images/apaxcolorpallete.jpg);
+        background-size:cover;
+        background-repeat: no-repeat;
+        background-position: center;
+    }
+
+    .branding-image-container.apax .two{
+        background-image: url(images/apax-company-front.jpg);
+        background-size:cover;
+        background-repeat: no-repeat;
+        background-position: center;
+    }
+
+    .branding-image-container.apax .three{
+        background-image: url(images/apax-logo.jpg);
+        background-size:cover;
+        background-repeat: no-repeat;
+        background-position: center;
+    }
+    .branding-image-container.apax .four{
+        background-image: url(images/apax-brochure.jpg);
+        background-size:cover;
+        background-repeat: no-repeat;
+        background-position: center;
+    }
+
+    .branding-image-container.two,                  /* third  project images branding style*/
+    .branding-image-container.three, 
+    .branding-image-container.four{
+        min-width: 100%;
+        height: 40dvh;
+    }
+    .branding-image-container.jesse .one{
+        min-width: 100%;
+        height: 15dvh;
+        background-image: url(images/jessecolorpallete.jpg);
+        background-size:cover;
+        background-repeat: no-repeat;
+        background-position: center;
+    }
+
+    .branding-image-container.jesse .two{
+        background-image: url(images/Jesse-hanging-wall.jpg);
+        background-size:cover;
+        background-repeat: no-repeat;
+        background-position: center;
+    }
+
+    .branding-image-container.jesse .three{
+        background-image: url(images/jesse-paper.jpg);
+        background-size:cover;
+        background-repeat: no-repeat;
+        background-position: center;
+    }
+    .branding-image-container.jesse .four{
+        background-image: url(images/jesse-langdingpage.jpg);
+        background-size:cover;
+        background-repeat: no-repeat;
+        background-position: center;
+    }
+
+    .branding-image-container.two,                  /* fourth  project images branding style*/
+    .branding-image-container.three, 
+    .branding-image-container.four{
+        min-width: 100%;
+        height: 40dvh;
+    }
+    .branding-image-container.obs .one{
+        min-width: 100%;
+        height: 15dvh;
+        background-image: url(images/obsequium-colorpallete.jpg);
+        background-size:cover;
+        background-repeat: no-repeat;
+        background-position: center;
+    }
+
+    .branding-image-container.obs .two{
+        background-image: url(images/obsequium-lawfirm.jpg);
+        background-size:cover;
+        background-repeat: no-repeat;
+        background-position: center;
+
+    }
+
+    .branding-image-container.obs .three{
+        background-image: url(images/obsequium-laptop.jpg);
+        background-size:cover;
+        background-repeat: no-repeat;
+        background-position: center;
+    }
+    .branding-image-container.obs .four{
+        background-image: url(images/obsequium-phone.jpg);
+        background-size:cover;
+        background-repeat: no-repeat;
+        background-position: center;
+    }
+    /*end style of work projects detail*/
+
+
+    /*start style of project footer*/
+
+    .project-footer, .about-footer{
+        position: relative;
+        z-index: 1;
+        background-color: #1f1f1f;
+        width: 100dvw;
+        min-height: 80dvh;
+        display: flex;
+        flex-direction: column;
+        justify-content:space-evenly;
+        align-items: center;
+    }
+    .project-footer>h1, .about-footer>h1{
+        font-size: 3.5rem;
+        max-width: 25ch;
+        padding: 2rem 2rem 2rem 2rem;
+        -webkit-text-stroke-width: 0.5px;
+        line-height:normal;
+    }
+    .project-footer>h1>span{
+        -webkit-text-stroke-color: aqua;
+        -webkit-text-stroke-width: 0.5px;
+    }
+    .project-button-container{
+        width: 100%;
+        display: flex;
+        justify-content:space-around;
+        align-items:center;
+    }
+    button.circle{
+        cursor: pointer;
+        background-color: transparent;
+    }
+    .project-button-container .circle.white{
+        width: 70px;
+        height: 70px;
+        border-radius: 50%;
+        border:1px solid whitesmoke;
+        position: relative;
+        justify-content: center;
+        align-items: center;
+        display: flex;
+    }
+    .project-button-container .circle.orange{
+        width: 70px;
+        height: 70px;
+        border-radius: 50%;
+        border:1px solid orange;
+        position: relative;
+        justify-content: center;
+        align-items: center;
+        display: flex;
+    }
+    .circle>h2{
+        font-size: 0.8rem;
+        white-space:nowrap;
+        letter-spacing:0.1rem;
+        font-weight: lighter;
+        text-align: center;
+    }
+    .circle.white>h2{
+        animation: rotate_white 200s infinite linear;
+    }
+    .circle.orange>h2{
+        animation: rotate_orange 200s infinite linear;
+    }
+
+    @keyframes rotate_white {
+        from {
+        transform: rotate(359deg);
+        }
+        to {
+        transform: rotate(0deg);
+        }
+    }
+
+
+    @keyframes rotate_orange {
+        from {
+        transform: rotate(0deg);
+        }
+        to {
+        transform: rotate(359deg);
+        }
+    }
+
 }
+    /*-------------end style of project footer ------------------------*/
+    /*-------------end style of project page ------------------------*/
+
 
 
 @media (min-width: 800px) and (max-width:992px) {
@@ -1095,8 +1795,354 @@ button.circle{
         left: 1rem;
         font-size:0.6rem;
     }
-/* end of footer styling */
+                        /*------ end of home page footer styling----- */
+                        /* -------start of project detail page-------*/
+
+    .project-container{
+        width: 100dvw;
+        height: 100dvh;
+        position: fixed;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .project-image-detail{              /*first project styling of specific images*/
+        width: 100%;
+        height: 70dvh;
+        background-image: url(images/laniemoore-shop.jpg);  
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+        position: relative;
+    }
+
+    .project-image-detail.two{              /*second project styling of specific images*/
+        width: 100dvw;
+        height: 70dvh;
+        background-image: url(images/apax-visa-consultancy.jpg);  
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+        position: relative;
+    }
+    .project-image-detail.three{              /*three project styling of specific images*/
+        width: 100dvw;
+        height: 70dvh;
+        background-image: url(images/jessechedotal-coach.jpg);  
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+        position:relative;
+    }
+    .project-image-detail.four{              /*fourth project styling of specific images*/
+        width: 100dvw;
+        height: 70dvh;
+        background-image: url(images/obsequium-estab.jpg);  
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+        position: relative;
+    }
+    .project-title>h1{                  /* project styling of specific of title */
+        mix-blend-mode:hard-light;
+        -webkit-text-stroke-width: 0.5px;
+        position: absolute;
+        top: 0rem;
+        left: 1rem;
+        font-size:2rem;
+    }
+
+    .project-description{               /* project styling of background of the parag */
+        width: 80dvw;
+        height: 40dvh;
+        bottom: 3rem;
+        right: 0rem;
+        position: absolute;
+        background-color: rgba(0, 0, 0, 0.75);
+        opacity: 70%;
+        display: flex;
+        justify-content: center;
+        align-items:center;
+        overflow: hidden;
+
+    }
+    .project-description>p{         /* project styling description parag of project */
+        text-align:justify;
+        padding: 1rem 2rem 1rem 2rem;
+        font-size: 1rem;
+        font-weight: 100;
+        text-indent: 3rem;
+        line-height: 1.8rem;
+        letter-spacing: 0.1rem;
+        overflow: hidden;
+    }
+
+    .empty{
+        width: 100dvw;
+        height: 100dvh;
+        z-index: 1;
+        position: relative;
+        overflow: hidden;
+    }
+
+    .project-branding-container{      /* project styling branding/casestudy of project */
+        width: 80dvw;
+        height: auto;
+        position: relative;
+        z-index: 1;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        background-color: rgba(7, 4, 2, 0.75);
+        overflow: hidden;
+    }
+
+    .branding-image-container{
+        min-width: 70dvw;
+        padding: 2rem 0rem 2rem 0rem;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        row-gap: 4rem;
+    }
+
+    .branding-image-container.two,                  /* first project images branding style*/
+    .branding-image-container.three, 
+    .branding-image-container.four{
+        min-width: 100%;
+        height: 40dvh;
+    }
+    .branding-image-container.one{
+        min-width: 100%;
+        height: 13dvw;
+        background-image: url(images/laniemoorecolorpallete.jpg);
+        background-size:cover;
+        background-repeat: no-repeat;
+        background-position: center;
+    }
+
+    .branding-image-container.two{
+        background-image: url(images/laniemoore-landing-page.jpg);
+        background-size:cover;
+        background-repeat: no-repeat;
+        background-position: center;
+    }
+
+    .branding-image-container.three{
+        background-image: url(images/laniemoore-laptop-two.jpg);
+        background-size:cover;
+        background-repeat: no-repeat;
+        background-position: center;
+    }
+    .branding-image-container.four{
+        background-image: url(images/laniemoore-laptop-front.jpg);
+        background-size:cover;
+        background-repeat: no-repeat;
+        background-position: center;
+    }
+    .branding-image-container.two,                  /* second  project images branding style*/
+    .branding-image-container.three, 
+    .branding-image-container.four{
+        min-width: 100%;
+        height: 40dvh;
+    }
+    .branding-image-container.apax .one{
+        min-width: 100%;
+        height: 13dvh;
+        background-image: url(images/apaxcolorpallete.jpg);
+        background-size:cover;
+        background-repeat: no-repeat;
+        background-position: center;
+    }
+
+    .branding-image-container.apax .two{
+        background-image: url(images/apax-company-front.jpg);
+        background-size:cover;
+        background-repeat: no-repeat;
+        background-position: center;
+    }
+
+    .branding-image-container.apax .three{
+        background-image: url(images/apax-logo.jpg);
+        background-size:cover;
+        background-repeat: no-repeat;
+        background-position: center;
+    }
+    .branding-image-container.apax .four{
+        background-image: url(images/apax-brochure.jpg);
+        background-size:cover;
+        background-repeat: no-repeat;
+        background-position: center;
+    }
+
+    .branding-image-container.two,                  /* third  project images branding style*/
+    .branding-image-container.three, 
+    .branding-image-container.four{
+        min-width: 100%;
+        height: 40dvh;
+    }
+    .branding-image-container.jesse .one{
+        min-width: 100%;
+        height: 13dvh;
+        background-image: url(images/jessecolorpallete.jpg);
+        background-size:cover;
+        background-repeat: no-repeat;
+        background-position: center;
+    }
+
+    .branding-image-container.jesse .two{
+        background-image: url(images/Jesse-hanging-wall.jpg);
+        background-size:cover;
+        background-repeat: no-repeat;
+        background-position: center;
+    }
+
+    .branding-image-container.jesse .three{
+        background-image: url(images/jesse-paper.jpg);
+        background-size:cover;
+        background-repeat: no-repeat;
+        background-position: center;
+    }
+    .branding-image-container.jesse .four{
+        background-image: url(images/jesse-langdingpage.jpg);
+        background-size:cover;
+        background-repeat: no-repeat;
+        background-position: center;
+    }
+
+    .branding-image-container.two,                  /* fourth  project images branding style*/
+    .branding-image-container.three, 
+    .branding-image-container.four{
+        min-width: 100%;
+        height: 40dvh;
+    }
+    .branding-image-container.obs .one{
+        min-width: 100%;
+        height: 13dvh;
+        background-image: url(images/obsequium-colorpallete.jpg);
+        background-size:cover;
+        background-repeat: no-repeat;
+        background-position: center;
+    }
+
+    .branding-image-container.obs .two{
+        background-image: url(images/obsequium-lawfirm.jpg);
+        background-size:cover;
+        background-repeat: no-repeat;
+        background-position: center;
+
+    }
+
+    .branding-image-container.obs .three{
+        background-image: url(images/obsequium-laptop.jpg);
+        background-size:cover;
+        background-repeat: no-repeat;
+        background-position: center;
+    }
+    .branding-image-container.obs .four{
+        background-image: url(images/obsequium-phone.jpg);
+        background-size:cover;
+        background-repeat: no-repeat;
+        background-position: center;
+    }
+    /*end style of work projects detail*/
+
+
+    /*start style of project footer*/
+
+    .project-footer, .about-footer{
+        position: relative;
+        z-index: 1;
+        background-color: #1f1f1f;
+        width: 100dvw;
+        min-height: 100dvh;
+        display: flex;
+        flex-direction: column;
+        justify-content:space-evenly;
+        align-items: center;
+        gap: 2rem;
+    }
+    .project-footer>h1, .about-footer>h1{
+        font-size: 5rem;
+        max-width: 30ch;
+        padding: 2rem 2rem 2rem 2rem;
+        -webkit-text-stroke-width: 1px;
+        line-height: normal;
+       
+    }
+    .project-footer>h1>span{
+        -webkit-text-stroke-color: aqua;
+        -webkit-text-stroke-width: 1px;
+    }
+    .project-button-container{
+        width: 100%;
+        display: flex;
+        justify-content:space-around;
+        align-items:center;
+        padding-bottom: 4rem;
+    }
+    button.circle{
+        cursor: pointer;
+        background-color: transparent;
+    }
+    .project-button-container .circle.white{
+        width: 90px;
+        height: 90px;
+        border-radius: 50%;
+        border:1px solid whitesmoke;
+        position: relative;
+        justify-content: center;
+        align-items: center;
+        display: flex;
+    }
+    .project-button-container .circle.orange{
+        width: 90px;
+        height: 90px;
+        border-radius: 50%;
+        border:1px solid orange;
+        position: relative;
+        justify-content: center;
+        align-items: center;
+        display: flex;
+    }
+    .circle>h2{
+        font-size: 1rem;
+        white-space:nowrap;
+        letter-spacing:0.1rem;
+        font-weight: lighter;
+        text-align: center;
+    }
+    .circle.white>h2{
+        animation: rotate_white 200s infinite linear;
+    }
+    .circle.orange>h2{
+        animation: rotate_orange 200s infinite linear;
+    }
+
+    @keyframes rotate_white {
+        from {
+        transform: rotate(359deg);
+        }
+        to {
+        transform: rotate(0deg);
+        }
+    }
+
+
+    @keyframes rotate_orange {
+        from {
+        transform: rotate(0deg);
+        }
+        to {
+        transform: rotate(359deg);
+        }
+    }
+
 }
+    /*-------------end style of project footer ------------------------*/
+    /*-------------end style of project page ------------------------*/
 
 
 
@@ -1242,8 +2288,355 @@ button.circle{
         left: 1rem;
         font-size:0.6rem;
     }
-/* end of footer styling */
+                          /*------ end of home page footer styling----- */
+                        /* -------start of project detail page-------*/
+
+    .project-container{
+        width: 100dvw;
+        height: 100dvh;
+        position: fixed;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .project-image-detail{              /*first project styling of specific images*/
+        width: 100%;
+        height: 75dvh;
+        background-image: url(images/laniemoore-shop.jpg);  
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+        position: relative;
+    }
+
+    .project-image-detail.two{              /*second project styling of specific images*/
+        width: 100dvw;
+        height: 75dvh;
+        background-image: url(images/apax-visa-consultancy.jpg);  
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+        position: relative;
+    }
+    .project-image-detail.three{              /*three project styling of specific images*/
+        width: 100dvw;
+        height: 75dvh;
+        background-image: url(images/jessechedotal-coach.jpg);  
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+        position:relative;
+    }
+    .project-image-detail.four{              /*fourth project styling of specific images*/
+        width: 100dvw;
+        height: 70dvh;
+        background-image: url(images/obsequium-estab.jpg);  
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+        position: relative;
+    }
+    .project-title>h1{                  /* project styling of specific of title */
+        mix-blend-mode:hard-light;
+        -webkit-text-stroke-width: 0.5px;
+        position: absolute;
+        top: 0rem;
+        left: 1rem;
+        font-size:2rem;
+    }
+
+    .project-description{               /* project styling of background of the parag */
+        width: 70dvw;
+        height: 40dvh;
+        bottom: 3rem;
+        right: 0rem;
+        position: absolute;
+        background-color: rgba(0, 0, 0, 0.75);
+        opacity: 70%;
+        display: flex;
+        justify-content: center;
+        align-items:center;
+        overflow: hidden;
+
+    }
+    .project-description>p{         /* project styling description parag of project */
+        text-align:justify;
+        padding: 1rem 3rem 1rem 3rem;
+        font-size: 1rem;
+        font-weight: 100;
+        text-indent: 3rem;
+        line-height: 2rem;
+        letter-spacing: 0.1rem;
+        overflow: hidden;
+    }
+
+    .empty{
+        width: 100dvw;
+        height: 100dvh;
+        z-index: 1;
+        position: relative;
+        overflow: hidden;
+    }
+
+    .project-branding-container{      /* project styling branding/casestudy of project */
+        width: 80dvw;
+        height: auto;
+        position: relative;
+        z-index: 1;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        background-color: rgba(7, 4, 2, 0.75);
+        overflow: hidden;
+    }
+
+    .branding-image-container{
+        min-width: 70dvw;
+        padding: 4rem 0rem 2rem 0rem;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        row-gap: 4rem;
+    }
+
+    .branding-image-container.two,                  /* first project images branding style*/
+    .branding-image-container.three, 
+    .branding-image-container.four{
+        min-width: 100%;
+        height: 40dvh;
+    }
+    .branding-image-container.one{
+        min-width: 100%;
+        height: 11dvw;
+        background-image: url(images/laniemoorecolorpallete.jpg);
+        background-size:cover;
+        background-repeat: no-repeat;
+        background-position: center;
+    }
+
+    .branding-image-container.two{
+        background-image: url(images/laniemoore-landing-page.jpg);
+        background-size:cover;
+        background-repeat: no-repeat;
+        background-position: center;
+    }
+
+    .branding-image-container.three{
+        background-image: url(images/laniemoore-laptop-two.jpg);
+        background-size:cover;
+        background-repeat: no-repeat;
+        background-position: center;
+    }
+    .branding-image-container.four{
+        background-image: url(images/laniemoore-laptop-front.jpg);
+        background-size:cover;
+        background-repeat: no-repeat;
+        background-position: center;
+    }
+    .branding-image-container.two,                  /* second  project images branding style*/
+    .branding-image-container.three, 
+    .branding-image-container.four{
+        min-width: 100%;
+        height: 40dvh;
+    }
+    .branding-image-container.apax .one{
+        min-width: 100%;
+        height: 11dvh;
+        background-image: url(images/apaxcolorpallete.jpg);
+        background-size:cover;
+        background-repeat: no-repeat;
+        background-position: center;
+    }
+
+    .branding-image-container.apax .two{
+        background-image: url(images/apax-company-front.jpg);
+        background-size:cover;
+        background-repeat: no-repeat;
+        background-position: center;
+    }
+
+    .branding-image-container.apax .three{
+        background-image: url(images/apax-logo.jpg);
+        background-size:cover;
+        background-repeat: no-repeat;
+        background-position: center;
+    }
+    .branding-image-container.apax .four{
+        background-image: url(images/apax-brochure.jpg);
+        background-size:cover;
+        background-repeat: no-repeat;
+        background-position: center;
+    }
+
+    .branding-image-container.two,                  /* third  project images branding style*/
+    .branding-image-container.three, 
+    .branding-image-container.four{
+        min-width: 100%;
+        height: 40dvh;
+    }
+    .branding-image-container.jesse .one{
+        min-width: 100%;
+        height: 11dvh;
+        background-image: url(images/jessecolorpallete.jpg);
+        background-size:cover;
+        background-repeat: no-repeat;
+        background-position: center;
+    }
+
+    .branding-image-container.jesse .two{
+        background-image: url(images/Jesse-hanging-wall.jpg);
+        background-size:cover;
+        background-repeat: no-repeat;
+        background-position: center;
+    }
+
+    .branding-image-container.jesse .three{
+        background-image: url(images/jesse-paper.jpg);
+        background-size:cover;
+        background-repeat: no-repeat;
+        background-position: center;
+    }
+    .branding-image-container.jesse .four{
+        background-image: url(images/jesse-langdingpage.jpg);
+        background-size:cover;
+        background-repeat: no-repeat;
+        background-position: center;
+    }
+
+    .branding-image-container.two,                  /* fourth  project images branding style*/
+    .branding-image-container.three, 
+    .branding-image-container.four{
+        min-width: 100%;
+        height: 40dvh;
+    }
+    .branding-image-container.obs .one{
+        min-width: 100%;
+        height: 11dvh;
+        background-image: url(images/obsequium-colorpallete.jpg);
+        background-size:cover;
+        background-repeat: no-repeat;
+        background-position: center;
+    }
+
+    .branding-image-container.obs .two{
+        background-image: url(images/obsequium-lawfirm.jpg);
+        background-size:cover;
+        background-repeat: no-repeat;
+        background-position: center;
+
+    }
+
+    .branding-image-container.obs .three{
+        background-image: url(images/obsequium-laptop.jpg);
+        background-size:cover;
+        background-repeat: no-repeat;
+        background-position: center;
+    }
+    .branding-image-container.obs .four{
+        background-image: url(images/obsequium-phone.jpg);
+        background-size:cover;
+        background-repeat: no-repeat;
+        background-position: center;
+    }
+    /*end style of work projects detail*/
+
+
+    /*start style of project footer*/
+
+    .project-footer, .about-footer{
+        position: relative;
+        z-index: 1;
+        background-color: #1f1f1f;
+        width: 100dvw;
+        min-height: 100dvh;
+        display: flex;
+        flex-direction: column;
+        justify-content:space-evenly;
+        align-items: center;
+        gap: 2rem;
+    }
+    .project-footer>h1, .about-footer>h1{
+        font-size: 6rem;
+        max-width: 50ch;
+        padding: 2rem 2rem 2rem 2rem;
+        -webkit-text-stroke-width: 1px;
+        line-height: normal;
+       
+    }
+    .project-footer>h1>span{
+        -webkit-text-stroke-color: aqua;
+        -webkit-text-stroke-width: 1px;
+    }
+    .project-button-container{
+        width: 100%;
+        display: flex;
+        justify-content:space-around;
+        align-items:center;
+        padding-bottom: 4rem;
+    }
+    button.circle{
+        cursor: pointer;
+        background-color: transparent;
+    }
+    .project-button-container .circle.white{
+        width: 110px;
+        height: 110px;
+        border-radius: 50%;
+        border:1px solid whitesmoke;
+        position: relative;
+        justify-content: center;
+        align-items: center;
+        display: flex;
+    }
+    .project-button-container .circle.orange{
+        width: 110px;
+        height: 110px;
+        border-radius: 50%;
+        border:1px solid orange;
+        position: relative;
+        justify-content: center;
+        align-items: center;
+        display: flex;
+    }
+    .circle>h2{
+        font-size: 1rem;
+        white-space:nowrap;
+        letter-spacing:0.1rem;
+        font-weight: lighter;
+        text-align: center;
+    }
+    .circle.white>h2{
+        animation: rotate_white 200s infinite linear;
+    }
+    .circle.orange>h2{
+        animation: rotate_orange 200s infinite linear;
+    }
+
+    @keyframes rotate_white {
+        from {
+        transform: rotate(359deg);
+        }
+        to {
+        transform: rotate(0deg);
+        }
+    }
+
+
+    @keyframes rotate_orange {
+        from {
+        transform: rotate(0deg);
+        }
+        to {
+        transform: rotate(359deg);
+        }
+    }
+
 }
+    /*-------------end style of project footer ------------------------*/
+    /*-------------end style of project page ------------------------*/
+
 
 
 
@@ -1392,8 +2785,360 @@ button.circle{
         left: 1rem;
         font-size:small;
     }
+
 /* end of footer styling */
+
+                          /*------ end of home page footer styling----- */
+                        /* -------start of project detail page-------*/
+
+    .project-container{
+        width: 100dvw;
+        height: 100dvh;
+        position: fixed;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .project-image-detail{              /*first project styling of specific images*/
+        width: 100%;
+        height: 80dvh;
+        background-image: url(images/laniemoore-shop.jpg);  
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+        position: relative;
+    }
+
+    .project-image-detail.two{              /*second project styling of specific images*/
+        width: 100dvw;
+        height: 75dvh;
+        background-image: url(images/apax-visa-consultancy.jpg);  
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+        position: relative;
+    }
+    .project-image-detail.three{              /*three project styling of specific images*/
+        width: 100dvw;
+        height: 75dvh;
+        background-image: url(images/jessechedotal-coach.jpg);  
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+        position:relative;
+    }
+    .project-image-detail.four{              /*fourth project styling of specific images*/
+        width: 100dvw;
+        height: 80dvh;
+        background-image: url(images/obsequium-estab.jpg);  
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+        position: relative;
+    }
+    .project-title>h1{                  /* project styling of specific of title */
+        mix-blend-mode:hard-light;
+        -webkit-text-stroke-width: 0.5px;
+        position: absolute;
+        top: 0rem;
+        left: 1rem;
+        font-size:3rem;
+    }
+
+    .project-description{               /* project styling of background of the parag */
+        width: 70dvw;
+        height: 40dvh;
+        bottom: 3rem;
+        right: 0rem;
+        position: absolute;
+        background-color: rgba(0, 0, 0, 0.75);
+        opacity: 70%;
+        display: flex;
+        justify-content: center;
+        align-items:center;
+        overflow: hidden;
+
+    }
+    .project-description>p{         /* project styling description parag of project */
+        text-align:justify;
+        padding: 1rem 3rem 1rem 3rem;
+        font-size: 1.4rem;
+        font-weight: 100;
+        text-indent: 3rem;
+        line-height: 2.5rem;
+        letter-spacing: 0.1rem;
+        overflow: hidden;
+    }
+
+    .empty{
+        width: 100dvw;
+        height: 100dvh;
+        z-index: 1;
+        position: relative;
+        overflow: hidden;
+    }
+
+    .project-branding-container{      /* project styling branding/casestudy of project */
+        width: 80dvw;
+        height: auto;
+        position: relative;
+        z-index: 1;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        background-color: rgba(7, 4, 2, 0.75);
+        overflow: hidden;
+    }
+
+    .branding-image-container{
+        min-width: 70dvw;
+        padding: 4rem 0rem 2rem 0rem;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        row-gap: 6rem;
+    }
+
+    .branding-image-container.two,                  /* first project images branding style*/
+    .branding-image-container.three, 
+    .branding-image-container.four{
+        min-width: 100%;
+        height: 50dvh;
+    }
+    .branding-image-container.one{
+        min-width: 100%;
+        height: 15dvw;
+        background-image: url(images/laniemoorecolorpallete.jpg);
+        background-size:cover;
+        background-repeat: no-repeat;
+        background-position: center;
+    }
+
+    .branding-image-container.two{
+        background-image: url(images/laniemoore-landing-page.jpg);
+        background-size:cover;
+        background-repeat: no-repeat;
+        background-position: center;
+    }
+
+    .branding-image-container.three{
+        background-image: url(images/laniemoore-laptop-two.jpg);
+        background-size:cover;
+        background-repeat: no-repeat;
+        background-position: center;
+    }
+    .branding-image-container.four{
+        background-image: url(images/laniemoore-laptop-front.jpg);
+        background-size:cover;
+        background-repeat: no-repeat;
+        background-position: center;
+    }
+    .branding-image-container.two,                  /* second  project images branding style*/
+    .branding-image-container.three, 
+    .branding-image-container.four{
+        min-width: 100%;
+        height: 50dvh;
+    }
+    .branding-image-container.apax .one{
+        min-width: 100%;
+        height: 15dvh;
+        background-image: url(images/apaxcolorpallete.jpg);
+        background-size:cover;
+        background-repeat: no-repeat;
+        background-position: center;
+    }
+
+    .branding-image-container.apax .two{
+        background-image: url(images/apax-company-front.jpg);
+        background-size:cover;
+        background-repeat: no-repeat;
+        background-position: center;
+    }
+
+    .branding-image-container.apax .three{
+        background-image: url(images/apax-logo.jpg);
+        background-size:cover;
+        background-repeat: no-repeat;
+        background-position: center;
+    }
+    .branding-image-container.apax .four{
+        background-image: url(images/apax-brochure.jpg);
+        background-size:cover;
+        background-repeat: no-repeat;
+        background-position: center;
+    }
+
+    .branding-image-container.two,                  /* third  project images branding style*/
+    .branding-image-container.three, 
+    .branding-image-container.four{
+        min-width: 100%;
+        height: 50dvh;
+    }
+    .branding-image-container.jesse .one{
+        min-width: 100%;
+        height: 15dvh;
+        background-image: url(images/jessecolorpallete.jpg);
+        background-size:cover;
+        background-repeat: no-repeat;
+        background-position: center;
+    }
+
+    .branding-image-container.jesse .two{
+        background-image: url(images/Jesse-hanging-wall.jpg);
+        background-size:cover;
+        background-repeat: no-repeat;
+        background-position: center;
+    }
+
+    .branding-image-container.jesse .three{
+        background-image: url(images/jesse-paper.jpg);
+        background-size:cover;
+        background-repeat: no-repeat;
+        background-position: center;
+    }
+    .branding-image-container.jesse .four{
+        background-image: url(images/jesse-langdingpage.jpg);
+        background-size:cover;
+        background-repeat: no-repeat;
+        background-position: center;
+    }
+
+    .branding-image-container.two,                  /* fourth  project images branding style*/
+    .branding-image-container.three, 
+    .branding-image-container.four{
+        min-width: 100%;
+        height: 50dvh;
+    }
+    .branding-image-container.obs .one{
+        min-width: 100%;
+        height: 15dvh;
+        background-image: url(images/obsequium-colorpallete.jpg);
+        background-size:cover;
+        background-repeat: no-repeat;
+        background-position: center;
+    }
+
+    .branding-image-container.obs .two{
+        background-image: url(images/obsequium-lawfirm.jpg);
+        background-size:cover;
+        background-repeat: no-repeat;
+        background-position: center;
+
+    }
+
+    .branding-image-container.obs .three{
+        background-image: url(images/obsequium-laptop.jpg);
+        background-size:cover;
+        background-repeat: no-repeat;
+        background-position: center;
+    }
+    .branding-image-container.obs .four{
+        background-image: url(images/obsequium-phone.jpg);
+        background-size:cover;
+        background-repeat: no-repeat;
+        background-position: center;
+    }
+    /*end style of work projects detail*/
+
+
+    /*start style of project footer*/
+
+    .project-footer, .about-footer{
+        position: relative;
+        z-index: 1;
+        background-color: #1f1f1f;
+        width: 100dvw;
+        min-height: 100dvh;
+        display: flex;
+        flex-direction: column;
+        justify-content:space-evenly;
+        align-items: center;
+        gap: 2rem;
+    }
+    .project-footer>h1, .about-footer>h1{
+        font-size: 7rem;
+        max-width: 45ch;
+        padding: 2rem 4rem 2rem 4rem;
+        -webkit-text-stroke-width: 1px;
+        line-height: normal;
+       
+    }
+    .project-footer>h1>span{
+        -webkit-text-stroke-color: aqua;
+        -webkit-text-stroke-width: 1px;
+    }
+    .project-button-container{
+        width: 100%;
+        display: flex;
+        justify-content:space-around;
+        align-items:center;
+        padding-bottom: 4rem;
+    }
+    button.circle{
+        cursor: pointer;
+        background-color: transparent;
+    }
+    .project-button-container .circle.white{
+        width: 120px;
+        height: 120px;
+        border-radius: 50%;
+        border:1px solid whitesmoke;
+        position: relative;
+        justify-content: center;
+        align-items: center;
+        display: flex;
+    }
+    .project-button-container .circle.orange{
+        width: 120px;
+        height: 120px;
+        border-radius: 50%;
+        border:1px solid orange;
+        position: relative;
+        justify-content: center;
+        align-items: center;
+        display: flex;
+    }
+    .circle>h2{
+        font-size: 1.3rem;
+        white-space:nowrap;
+        letter-spacing:0.1rem;
+        font-weight: lighter;
+        text-align: center;
+    }
+    .circle.white>h2{
+        animation: rotate_white 200s infinite linear;
+    }
+    .circle.orange>h2{
+        animation: rotate_orange 200s infinite linear;
+    }
+
+    @keyframes rotate_white {
+        from {
+        transform: rotate(359deg);
+        }
+        to {
+        transform: rotate(0deg);
+        }
+    }
+
+
+    @keyframes rotate_orange {
+        from {
+        transform: rotate(0deg);
+        }
+        to {
+        transform: rotate(359deg);
+        }
+    }
+
 }
+   /*------ end of home page footer styling----- */
+                       
+   
+   
+   /* -------start of project detail page-------*/
 
 @media (min-width: 1440px) and (max-width:1920px) {
     body{
@@ -1547,13 +3292,358 @@ button.circle{
         font-size:small;
     }
 /* end of footer styling */
+
+                          /*------ end of home page footer styling----- */
+                        /* -------start of project detail page-------*/
+
+    .project-container{
+        width: 100dvw;
+        height: 100dvh;
+        position: fixed;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .project-image-detail{              /*first project styling of specific images*/
+        width: 100%;
+        height: 80dvh;
+        background-image: url(images/laniemoore-shop.jpg);  
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+        position: relative;
+    }
+
+    .project-image-detail.two{              /*second project styling of specific images*/
+        width: 100dvw;
+        height: 75dvh;
+        background-image: url(images/apax-visa-consultancy.jpg);  
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+        position: relative;
+    }
+    .project-image-detail.three{              /*three project styling of specific images*/
+        width: 100dvw;
+        height: 75dvh;
+        background-image: url(images/jessechedotal-coach.jpg);  
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+        position:relative;
+    }
+    .project-image-detail.four{              /*fourth project styling of specific images*/
+        width: 100dvw;
+        height: 80dvh;
+        background-image: url(images/obsequium-estab.jpg);  
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+        position: relative;
+    }
+    .project-title>h1{                  /* project styling of specific of title */
+        mix-blend-mode:hard-light;
+        -webkit-text-stroke-width: 0.5px;
+        position: absolute;
+        top: 0rem;
+        left: 1rem;
+        font-size:5rem;
+    }
+
+    .project-description{               /* project styling of background of the parag */
+        width: 70dvw;
+        height: 40dvh;
+        bottom: 3rem;
+        right: 0rem;
+        position: absolute;
+        background-color: rgba(0, 0, 0, 0.75);
+        opacity: 70%;
+        display: flex;
+        justify-content: center;
+        align-items:center;
+        overflow: hidden;
+
+    }
+    .project-description>p{         /* project styling description parag of project */
+        text-align:justify;
+        padding: 1rem 3rem 1rem 3rem;
+        font-size: 1.5rem;
+        font-weight: 100;
+        text-indent: 3rem;
+        line-height: 2.7rem;
+        letter-spacing: 0.1rem;
+        overflow: hidden;
+    }
+
+    .empty{
+        width: 100dvw;
+        height: 100dvh;
+        z-index: 1;
+        position: relative;
+        overflow: hidden;
+    }
+
+    .project-branding-container{      /* project styling branding/casestudy of project */
+        width: 80dvw;
+        height: auto;
+        position: relative;
+        z-index: 1;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        background-color: rgba(7, 4, 2, 0.75);
+        overflow: hidden;
+    }
+
+    .branding-image-container{
+        min-width: 70dvw;
+        padding: 8rem 0rem 8rem 0rem;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        row-gap: 8rem;
+    }
+
+    .branding-image-container.two,                  /* first project images branding style*/
+    .branding-image-container.three, 
+    .branding-image-container.four{
+        min-width: 100%;
+        height: 65dvh;
+    }
+    .branding-image-container.one{
+        min-width: 100%;
+        height: 5dvw;
+        background-image: url(images/laniemoorecolorpallete.jpg);
+        background-size:cover;
+        background-repeat: no-repeat;
+        background-position: center;
+    }
+
+    .branding-image-container.two{
+        background-image: url(images/laniemoore-landing-page.jpg);
+        background-size:cover;
+        background-repeat: no-repeat;
+        background-position: center;
+    }
+
+    .branding-image-container.three{
+        background-image: url(images/laniemoore-laptop-two.jpg);
+        background-size:cover;
+        background-repeat: no-repeat;
+        background-position: center;
+    }
+    .branding-image-container.four{
+        background-image: url(images/laniemoore-laptop-front.jpg);
+        background-size:cover;
+        background-repeat: no-repeat;
+        background-position: center;
+    }
+    .branding-image-container.two,                  /* second  project images branding style*/
+    .branding-image-container.three, 
+    .branding-image-container.four{
+        min-width: 100%;
+        height: 65dvh;
+    }
+    .branding-image-container.apax .one{
+        min-width: 100%;
+        height: 5dvh;
+        background-image: url(images/apaxcolorpallete.jpg);
+        background-size:cover;
+        background-repeat: no-repeat;
+        background-position: center;
+    }
+
+    .branding-image-container.apax .two{
+        background-image: url(images/apax-company-front.jpg);
+        background-size:cover;
+        background-repeat: no-repeat;
+        background-position: center;
+    }
+
+    .branding-image-container.apax .three{
+        background-image: url(images/apax-logo.jpg);
+        background-size:cover;
+        background-repeat: no-repeat;
+        background-position: center;
+    }
+    .branding-image-container.apax .four{
+        background-image: url(images/apax-brochure.jpg);
+        background-size:cover;
+        background-repeat: no-repeat;
+        background-position: center;
+    }
+
+    .branding-image-container.two,                  /* third  project images branding style*/
+    .branding-image-container.three, 
+    .branding-image-container.four{
+        min-width: 100%;
+        height: 65dvh;
+    }
+    .branding-image-container.jesse .one{
+        min-width: 100%;
+        height: 5dvh;
+        background-image: url(images/jessecolorpallete.jpg);
+        background-size:cover;
+        background-repeat: no-repeat;
+        background-position: center;
+    }
+
+    .branding-image-container.jesse .two{
+        background-image: url(images/Jesse-hanging-wall.jpg);
+        background-size:cover;
+        background-repeat: no-repeat;
+        background-position: center;
+    }
+
+    .branding-image-container.jesse .three{
+        background-image: url(images/jesse-paper.jpg);
+        background-size:cover;
+        background-repeat: no-repeat;
+        background-position: center;
+    }
+    .branding-image-container.jesse .four{
+        background-image: url(images/jesse-langdingpage.jpg);
+        background-size:cover;
+        background-repeat: no-repeat;
+        background-position: center;
+    }
+
+    .branding-image-container.two,                  /* fourth  project images branding style*/
+    .branding-image-container.three, 
+    .branding-image-container.four{
+        min-width: 100%;
+        height: 65dvh;
+    }
+    .branding-image-container.obs .one{
+        min-width: 100%;
+        height: 5dvh;
+        background-image: url(images/obsequium-colorpallete.jpg);
+        background-size:cover;
+        background-repeat: no-repeat;
+        background-position: center;
+    }
+
+    .branding-image-container.obs .two{
+        background-image: url(images/obsequium-lawfirm.jpg);
+        background-size:cover;
+        background-repeat: no-repeat;
+        background-position: center;
+
+    }
+
+    .branding-image-container.obs .three{
+        background-image: url(images/obsequium-laptop.jpg);
+        background-size:cover;
+        background-repeat: no-repeat;
+        background-position: center;
+    }
+    .branding-image-container.obs .four{
+        background-image: url(images/obsequium-phone.jpg);
+        background-size:cover;
+        background-repeat: no-repeat;
+        background-position: center;
+    }
+    /*end style of work projects detail*/
+
+
+    /*start style of project footer*/
+
+    .project-footer, .about-footer{
+        position: relative;
+        z-index: 1;
+        background-color: #1f1f1f;
+        width: 100dvw;
+        min-height: 100dvh;
+        display: flex;
+        flex-direction: column;
+        justify-content:space-evenly;
+        align-items: center;
+        gap: 2rem;
+    }
+    .project-footer>h1, .about-footer>h1{
+        font-size: 7.5rem;
+        max-width: 55ch;
+        padding: 2rem 4rem 2rem 4rem;
+        -webkit-text-stroke-width: 1px;
+        line-height: normal;
+       
+    }
+    .project-footer>h1>span{
+        -webkit-text-stroke-color: aqua;
+        -webkit-text-stroke-width: 1px;
+    }
+    .project-button-container{
+        width: 100%;
+        display: flex;
+        justify-content:space-around;
+        align-items:center;
+        padding-bottom: 4rem;
+    }
+    button.circle{
+        cursor: pointer;
+        background-color: transparent;
+    }
+    .project-button-container .circle.white{
+        width: 140px;
+        height: 140px;
+        border-radius: 50%;
+        border:1px solid whitesmoke;
+        position: relative;
+        justify-content: center;
+        align-items: center;
+        display: flex;
+    }
+    .project-button-container .circle.orange{
+        width: 140px;
+        height: 140px;
+        border-radius: 50%;
+        border:1px solid orange;
+        position: relative;
+        justify-content: center;
+        align-items: center;
+        display: flex;
+    }
+    .circle>h2{
+        font-size: 1.4rem;
+        white-space:nowrap;
+        letter-spacing:0.2rem;
+        font-weight: lighter;
+        text-align: center;
+    }
+    .circle.white>h2{
+        animation: rotate_white 200s infinite linear;
+    }
+    .circle.orange>h2{
+        animation: rotate_orange 200s infinite linear;
+    }
+
+    @keyframes rotate_white {
+        from {
+        transform: rotate(359deg);
+        }
+        to {
+        transform: rotate(0deg);
+        }
+    }
+
+
+    @keyframes rotate_orange {
+        from {
+        transform: rotate(0deg);
+        }
+        to {
+        transform: rotate(359deg);
+        }
+    }
+
 }
+  
+   
+   /* -------end of project detail page----*/
 
 
-/*-------------start style of work projects detail page------------------------*/
-
-
-/*-------------end style of project footer ------------------------*/
 /*-------------start style of about me page ------------------------*/
 
 .review-container{
