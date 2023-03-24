@@ -644,10 +644,130 @@ small{
         transform: rotate(359deg);
         }
     }
-
    
    /* -------end of project detail page----*/
 
+
+    .review-container{
+        width: 100dvw;
+        height: 100dvh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        overflow: hidden;
+    }
+
+    .review-image-container{
+        width: 100%;
+        height: 100dvh;
+        display: flex;
+        justify-content:space-evenly;
+        align-items: center;
+        gap: 2rem;
+        overflow: hidden;
+
+    }
+    .review-image{
+        width: 300px;
+        height: 90px;
+        overflow: hidden;
+    }
+
+
+    .about-container{               /* about me sections */
+        min-height: 100dvh;
+        display: flex;
+        justify-content: center;
+        align-items: start;
+        flex-direction: column;
+        gap: 2rem;
+        overflow: hidden;
+    }
+    .about-pitch>h1{
+        max-width: 15ch;
+        -webkit-text-stroke-color: orange;
+        text-align:left;
+        overflow: hidden;
+        line-height: normal;
+        font-size: 8rem;
+        padding:0 4rem 0 4rem;
+      
+    }   
+    .about-me{
+        width: 90%;
+        height: 50dvh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap:2rem;
+        overflow: hidden;
+        padding:0 4rem 0rem 4rem;
+    }
+
+    .about-parag{
+        width: 100%;
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: start;
+        gap: 2rem;
+        overflow: hidden;
+        
+        
+    }
+    .about-parag>p{
+        font-size:2rem;
+        font-weight:100;
+        text-indent: 2rem;
+        opacity: 75%;
+        max-width: 80ch;
+        line-height: 3rem;
+        letter-spacing: 0.1rem;
+        overflow: hidden;
+        text-align: left
+    }
+    .about-reserve{
+        min-width: 50dvw;
+        height: 10dvh;
+        display: none;
+    }
+    .about-image{
+        background-image:url(images/about-myself.png;);
+        width:600px;
+        height:100%;
+        background-size:cover;
+        background-repeat: no-repeat;
+        background-position: center;
+    }
+    .about-pitch-two{
+        width: 100dvw;
+        min-height: 70dvh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        overflow: hidden;
+        gap: 4rem;
+        padding-top: 5rem;
+
+    }
+    .about-pitch-two>h1{
+        max-width: 30ch;
+        font-size: 8rem;
+        line-height: 7rem;
+        overflow: hidden;
+        text-align: center;
+        padding:0rem 3rem 0rem 3rem;
+
+    }
+    .about-footer h1{
+       -webkit-text-stroke-color: aqua;
+       overflow: hidden;
+    }
+    span{
+        -webkit-text-stroke-color: orange;
+    }
 @media (max-width: 600px) {     /* Styles for screens smaller than 768px */
 
                                 /* Home Page style */
@@ -1032,12 +1152,128 @@ small{
         }
     }
 
-    }
+    
 /*-------------end style of project page ------------------------*/
     
 
 
+    /*-------------start style of about me page ------------------------*/
 
+    .review-container{
+        width: 100dvw;
+        height: 100dvh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        overflow: hidden;
+    }
+
+    .review-image-container{
+        width: 100%;
+        height: 60dvh;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        align-items: center;
+        gap: 2rem;
+        overflow: hidden;
+
+    }
+    .review-image{
+        width: 250px;
+        height: 80px;
+        overflow: hidden;
+    }
+
+
+    .about-container{               /* about me sections */
+        min-height: 90dvh;
+        width: 100dvw;
+        display: flex;
+        justify-content: start;
+        align-items: center;
+        flex-direction: column;
+        gap: 2rem;
+        overflow: hidden;
+    }
+    .about-pitch>h1{
+        -webkit-text-stroke-color: orange;
+        max-width: 15ch;
+        text-align:center;
+        overflow: hidden;
+        font-size: 3rem;
+    }   
+    .about-me{
+        width: 80dvw;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap:2rem;
+        flex-direction: column-reverse;
+        overflow: hidden;
+    }
+
+    .about-parag{
+        width: 100%;
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 2rem;
+        overflow: hidden;
+    }
+    .about-parag>p{
+        font-size:0.8rem;
+        font-weight:100;
+        text-indent: 2rem;
+        opacity: 75%;
+        letter-spacing: 0.1rem;
+        overflow: hidden;
+        text-align: center;
+    }
+    .about-reserve{
+        min-width: 50dvw;
+        height: 10dvh;
+        display: none;
+    }
+    .about-image{
+        background-image:url(images/about-myself.png;);
+        width:220px;
+        height:100%;
+        background-size:cover;
+        background-repeat: no-repeat;
+        background-position: center;
+    }
+    .about-pitch-two{
+        width: 100dvw;
+        min-height: 70dvh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        overflow: hidden;
+        gap: 3rem;
+
+    }
+    .about-pitch-two>h1{
+        font-size: 3rem;
+        line-height: normal;
+        overflow: hidden;
+        padding:0rem 2rem 0rem 2rem;
+
+    }
+    .about-footer h1{
+       -webkit-text-stroke-color: aqua;
+       overflow: hidden;
+    }
+    span{
+        -webkit-text-stroke-color: orange;
+    }
+ }
+
+
+    /*-------------end style of about me page ------------------------*/
 
 @media (min-width: 600px) and (max-width:800px) {
     body{
@@ -1524,11 +1760,125 @@ small{
         }
     }
 
-}
+
     /*-------------end style of project footer ------------------------*/
     /*-------------end style of project page ------------------------*/
 
+   /*-------------start style of about me page ------------------------*/
 
+    .review-container{
+        width: 100dvw;
+        height: 100dvh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        overflow: hidden;
+    }
+
+    .review-image-container{
+        width: 100%;
+        height: 60dvh;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        align-items: center;
+        gap: 3rem;
+        overflow: hidden;
+
+    }
+    .review-image{
+        width: 300px;
+        height: 80px;
+        overflow: hidden;
+    }
+
+
+    .about-container{               /* about me sections */
+        min-height: 90dvh;
+        width: 100dvw;
+        display: flex;
+        justify-content: start;
+        align-items: center;
+        flex-direction: column;
+        gap: 2rem;
+        overflow: hidden;
+    }
+    .about-pitch>h1{
+        -webkit-text-stroke-color: orange;
+        max-width: 15ch;
+        text-align:center;
+        overflow: hidden;
+        line-height: normal;
+        font-size: 4rem;
+    }   
+    .about-me{
+        width: 80dvw;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap:2rem;
+        flex-direction: column-reverse;
+        overflow: hidden;
+    }
+
+    .about-parag{
+        width: 100%;
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 2rem;
+        overflow: hidden;
+    }
+    .about-parag>p{
+        font-size:0.9rem;
+        font-weight:100;
+        text-indent: 2rem;
+        opacity: 75%;
+        letter-spacing: 0.1rem;
+        overflow: hidden;
+        text-align: center;
+    }
+    .about-reserve{
+        min-width: 50dvw;
+        height: 10dvh;
+        display: none;
+    }
+    .about-image{
+        background-image:url(images/about-myself.png;);
+        width:250px;
+        height:100%;
+        background-size:cover;
+        background-repeat: no-repeat;
+        background-position: center;
+    }
+    .about-pitch-two{
+        width: 100dvw;
+        min-height: 70dvh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        overflow: hidden;
+        gap: 3rem;
+
+    }
+    .about-pitch-two>h1{
+        font-size: 4rem;
+        line-height: normal;
+        overflow: hidden;
+        padding:0rem 2rem 0rem 2rem;
+
+    }
+    .about-footer h1{
+       -webkit-text-stroke-color: aqua;
+       overflow: hidden;
+    }
+    span{
+        -webkit-text-stroke-color: orange;
+    }
+ }
 
 @media (min-width: 800px) and (max-width:992px) {
     body{
@@ -2027,10 +2377,133 @@ small{
         }
     }
 
-}
-    /*-------------end style of project footer ------------------------*/
-    /*-------------end style of project page ------------------------*/
 
+        /*end style of project footer */
+    /*-------------end style of project page ------------------------*/
+   /*-------------start style of about me page ------------------------*/
+
+    .review-container{
+        width: 100dvw;
+        height: 100dvh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        overflow: hidden;
+    }
+
+    .review-image-container{
+        width: 100%;
+        height: 60dvh;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        align-items: center;
+        gap: 4rem;
+        overflow: hidden;
+
+    }
+    .review-image{
+        width: 300px;
+        height: 90px;
+        overflow: hidden;
+    }
+
+
+    .about-container{               /* about me sections */
+        min-height: 90dvh;
+        width: 100dvw;
+        display: flex;
+        justify-content: start;
+        align-items: center;
+        flex-direction: column;
+        gap: 2rem;
+        overflow: hidden;
+    }
+    .about-pitch>h1{
+        max-width: 15ch;
+        -webkit-text-stroke-color: orange;
+        text-align:center;
+        overflow: hidden;
+        line-height: normal;
+        font-size: 5rem;
+        padding:0 4rem 0 4rem;
+    }   
+    .about-me{
+        width: 90%;
+        height: 50dvh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column-reverse;
+        gap:2rem;
+        overflow: hidden;
+        padding:0 4rem 0 4rem;
+    }
+
+    .about-parag{
+        width: 100%;
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 2rem;
+        overflow: hidden;
+        
+        
+    }
+    .about-parag>p{
+        font-size:1.1rem;
+        font-weight:100;
+        text-indent: 2rem;
+        opacity: 75%;
+        max-width: 80ch;
+        line-height: 1.8rem;
+        letter-spacing: 0.1rem;
+        overflow: hidden;
+        text-align: left
+    }
+    .about-reserve{
+        min-width: 50dvw;
+        height: 10dvh;
+        display: none;
+    }
+    .about-image{
+        background-image:url(images/about-myself.png;);
+        width:300px;
+        height:100%;
+        right:0rem;
+        bottom:0rem;
+        background-size:cover;
+        background-repeat: no-repeat;
+        background-position: center;
+    }
+    .about-pitch-two{
+        width: 100dvw;
+        min-height: 70dvh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        overflow: hidden;
+        gap: 3rem;
+
+    }
+    .about-pitch-two>h1{
+        font-size: 5rem;
+        line-height: normal;
+        overflow: hidden;
+        padding:0rem 3rem 0rem 3rem;
+
+    }
+    .about-footer h1{
+       -webkit-text-stroke-color: aqua;
+       overflow: hidden;
+    }
+    span{
+        -webkit-text-stroke-color: orange;
+    }
+ }
 
 
 @media (min-width: 992px) and (max-width:1280px) {
@@ -2520,10 +2993,135 @@ small{
         }
     }
 
-}
-    /*-------------end style of project footer ------------------------*/
+
+    /*end style of project footer*/
     /*-------------end style of project page ------------------------*/
 
+/*-------------start style of about me page ------------------------*/
+
+    .review-container{
+        width: 100dvw;
+        height: 100dvh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        overflow: hidden;
+    }
+
+    .review-image-container{
+        width: 100%;
+        height: 60dvh;
+        display: flex;
+        justify-content:space-between;
+        align-items: center;
+        gap: 2rem;
+        padding: 0 4rem 0 4rem;
+        overflow: hidden;
+
+    }
+    .review-image{
+        width: 300px;
+        height: 90px;
+        overflow: hidden;
+    }
+
+
+    .about-container{               /* about me sections */
+        min-height: 100dvh;
+        width: 100dvw;
+        display: flex;
+        justify-content: start;
+        align-items: start;
+        flex-direction: column;
+        gap: 2rem;
+        overflow: hidden;
+    }
+    .about-pitch>h1{
+        max-width: 15ch;
+        -webkit-text-stroke-color: orange;
+        text-align:left;
+        overflow: hidden;
+        line-height: normal;
+        font-size: 6rem;
+        padding:0 4rem 0 4rem;
+    }   
+    .about-me{
+        width: 90%;
+        height: 50dvh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap:3rem;
+        overflow: hidden;
+        padding:0 4rem 0 4rem;
+    }
+
+    .about-parag{
+        width: 100%;
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: start;
+        gap: 2rem;
+        overflow: hidden;
+        
+        
+    }
+    .about-parag>p{
+        font-size:1.2rem;
+        font-weight:100;
+        text-indent: 2rem;
+        opacity: 75%;
+        max-width: 80ch;
+        line-height: 2.1rem;
+        letter-spacing: 0.1rem;
+        overflow: hidden;
+        text-align: left
+    }
+    .about-reserve{
+        min-width: 50dvw;
+        height: 10dvh;
+        display: none;
+    }
+    .about-image{
+        background-image:url(images/about-myself.png;);
+        width:500px;
+        height:100%;
+        right:0rem;
+        bottom:0rem;
+        background-size:cover;
+        background-repeat: no-repeat;
+        background-position: center;
+    }
+    .about-pitch-two{
+        width: 100dvw;
+        min-height: 70dvh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        overflow: hidden;
+        gap: 2rem;
+
+    }
+    .about-pitch-two>h1{
+        max-width: 30ch;
+        font-size: 5rem;
+        line-height: 4.5rem;
+        overflow: hidden;
+        text-align: center;
+        padding:0rem 3rem 0rem 3rem;
+
+    }
+    .about-footer h1{
+       -webkit-text-stroke-color: aqua;
+       overflow: hidden;
+    }
+    span{
+        -webkit-text-stroke-color: orange;
+    }
+ }
 
 
 
@@ -3020,12 +3618,137 @@ small{
         }
     }
 
-}
+
    /*------ end of home page footer styling----- */
-                       
    
-   
-   /* -------start of project detail page-------*/
+   /* -------end of project detail page-------*/
+
+   /*-------------start style of about me page ------------------------*/
+
+    .review-container{
+        width: 100dvw;
+        height: 100dvh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        overflow: hidden;
+    }
+
+    .review-image-container{
+        width: 100%;
+        height: 100dvh;
+        display: flex;
+        justify-content:space-evenly;
+        align-items: center;
+        gap: 2rem;
+        overflow: hidden;
+
+    }
+    .review-image{
+        width: 300px;
+        height: 90px;
+        overflow: hidden;
+    }
+
+
+    .about-container{               /* about me sections */
+        min-height: 100dvh;
+        width: 100dvw;
+        display: flex;
+        justify-content: center;
+        align-items: start;
+        flex-direction: column;
+        gap: 2rem;
+        overflow: hidden;
+    }
+    .about-pitch>h1{
+        max-width: 15ch;
+        -webkit-text-stroke-color: orange;
+        text-align:left;
+        overflow: hidden;
+        line-height: normal;
+        font-size: 6rem;
+        padding:0 4rem 0 4rem;
+      
+    }   
+    .about-me{
+        width: 90%;
+        height: 50dvh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap:3rem;
+        overflow: hidden;
+        padding:0 4rem 0 4rem;
+    }
+
+    .about-parag{
+        width: 100%;
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: start;
+        gap: 2rem;
+        overflow: hidden;
+        
+        
+    }
+    .about-parag>p{
+        font-size:1.2rem;
+        font-weight:100;
+        text-indent: 2rem;
+        opacity: 75%;
+        max-width: 80ch;
+        line-height: 2.1rem;
+        letter-spacing: 0.1rem;
+        overflow: hidden;
+        text-align: left
+    }
+    .about-reserve{
+        min-width: 50dvw;
+        height: 10dvh;
+        display: none;
+    }
+    .about-image{
+        background-image:url(images/about-myself.png;);
+        width:500px;
+        height:100%;
+        right:0rem;
+        bottom:0rem;
+        background-size:cover;
+        background-repeat: no-repeat;
+        background-position: center;
+    }
+    .about-pitch-two{
+        width: 100dvw;
+        min-height: 70dvh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        overflow: hidden;
+        gap: 2rem;
+
+    }
+    .about-pitch-two>h1{
+        max-width: 30ch;
+        font-size: 5rem;
+        line-height: 4.5rem;
+        overflow: hidden;
+        text-align: center;
+        padding:0rem 3rem 0rem 3rem;
+
+    }
+    .about-footer h1{
+       -webkit-text-stroke-color: aqua;
+       overflow: hidden;
+    }
+    span{
+        -webkit-text-stroke-color: orange;
+    }
+ }
+
 
 @media (min-width: 1440px) and (max-width:1920px) {
     body{
@@ -3525,128 +4248,135 @@ small{
         }
     }
 
-}
-  
-   
-   /* -------end of project detail page----*/
-
-
 /*-------------start style of about me page ------------------------*/
 
-.review-container{
-    width: 99.8dvw;
-    height: 100dvh;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
+    .review-container{
+        width: 100dvw;
+        height: 100dvh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        overflow: hidden;
+    }
 
-.review-image-container{
-    width: 90dvw;
-    height: 60dvh;
-    display: flex;
-    justify-content: space-evenly;
-    align-items: center;
-    gap: 4rem;
+    .review-image-container{
+        width: 100%;
+        height: 100dvh;
+        display: flex;
+        justify-content:space-evenly;
+        align-items: center;
+        gap: 2rem;
+        overflow: hidden;
 
-}
-.review-image{
-    min-width: 17dvw;
-    min-height: 14dvh;
-
-}
-
-.review-image.one{
-    background-image: url(images/editors-choice-01.png);
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: cover;
-
-}
-.review-image.two{
-    background-image: url(images/editors-choice-02.png);
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: cover;
-
-}
-.review-image.three{
-    background-image: url(images/editors-choice-03.png);
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: cover;
-}
-
-.about-container{               /* about me sections */
-    min-height: 100dvh;
-    width: 100dvw;
-}
-.about-pitch>h1{
-    -webkit-text-stroke-color: orange;
-    width: 20ch;
-    text-align: left;
-    width: 60dvw;
-    padding: 0rem 4rem 0rem 4rem;
-
-}
-.about-me{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    position: relative;
-
-}
-
-.about-parag{
-    width: 65dvw;
-    height: 100%;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    font-size: 1.3rem;
-    font-weight:normal;
-    gap: 1.5rem;
-    text-indent: 2rem;
-    opacity: 75%;
-    padding: 0rem 4rem 0rem 4rem;
+    }
+    .review-image{
+        width: 300px;
+        height: 90px;
+        overflow: hidden;
+    }
 
 
-}
-.about-reserve{
-    width: 50dvw;
-    height: 50dvh;
+    .about-container{               /* about me sections */
+        min-height: 100dvh;
+        width: 100dvw;
+        display: flex;
+        justify-content: center;
+        align-items: start;
+        flex-direction: column;
+        gap: 2rem;
+        overflow: hidden;
+    }
+    .about-pitch>h1{
+        max-width: 15ch;
+        -webkit-text-stroke-color: orange;
+        text-align:left;
+        overflow: hidden;
+        line-height: normal;
+        font-size: 8rem;
+        padding:0 4rem 0 4rem;
+      
+    }   
+    .about-me{
+        width: 90%;
+        height: 50dvh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap:2rem;
+        overflow: hidden;
+        padding:0 4rem 0rem 4rem;
+    }
 
-}
-.about-image{
-    position: absolute;
-    bottom: 0rem;
-    right: 0rem;
-    background-image: url(images/about-myself.png);
-    width:50dvw ;
-    height:80dvh ;
-    z-index: -1;
-    background-size: contain;
-    background-repeat: no-repeat;
-    background-position: center;
-}
-.about-pitch-two{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
+    .about-parag{
+        width: 100%;
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: start;
+        gap: 2rem;
+        overflow: hidden;
+        
+        
+    }
+    .about-parag>p{
+        font-size:2rem;
+        font-weight:100;
+        text-indent: 2rem;
+        opacity: 75%;
+        max-width: 80ch;
+        line-height: 3rem;
+        letter-spacing: 0.1rem;
+        overflow: hidden;
+        text-align: left
+    }
+    .about-reserve{
+        min-width: 50dvw;
+        height: 10dvh;
+        display: none;
+    }
+    .about-image{
+        background-image:url(images/about-myself.png;);
+        width:600px;
+        height:100%;
+        background-size:cover;
+        background-repeat: no-repeat;
+        background-position: center;
+    }
+    .about-pitch-two{
+        width: 100dvw;
+        min-height: 70dvh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        overflow: hidden;
+        gap: 4rem;
+        padding-top: 5rem;
 
-}
-.about-pitch-two>h1{
-    font-size: 5rem;
-    padding: 0rem 4rem 0rem 4rem;
+    }
+    .about-pitch-two>h1{
+        max-width: 30ch;
+        font-size: 8rem;
+        line-height: 7rem;
+        overflow: hidden;
+        text-align: center;
+        padding:0rem 3rem 0rem 3rem;
 
-}
-span{
-    -webkit-text-stroke-color: orange;
-}
+    }
+    .about-footer h1{
+       -webkit-text-stroke-color: aqua;
+       overflow: hidden;
+    }
+    span{
+        -webkit-text-stroke-color: orange;
+    }
+ }
+  
 
-/*-------------end style of about me page ------------------------*/
+ /*-------------start style of about me page ------------------------*/
+
+
 
 /*-------------start style of contact page ------------------------*/
 
