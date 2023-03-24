@@ -1205,12 +1205,13 @@ small{
     }   
     .about-me{
         width: 80dvw;
+        height: 100dvh;
         display: flex;
         justify-content: center;
         align-items: center;
         gap:2rem;
         flex-direction: column-reverse;
-        overflow: hidden;
+       
     }
 
     .about-parag{
@@ -1221,7 +1222,7 @@ small{
         justify-content: center;
         align-items: center;
         gap: 2rem;
-        overflow: hidden;
+       
     }
     .about-parag>p{
         font-size:0.8rem;
@@ -1229,8 +1230,8 @@ small{
         text-indent: 2rem;
         opacity: 75%;
         letter-spacing: 0.1rem;
-        overflow: hidden;
         text-align: center;
+        line-height: normal;
     }
     .about-reserve{
         min-width: 50dvw;
@@ -1812,6 +1813,7 @@ small{
         font-size: 4rem;
     }   
     .about-me{
+        height: 100dvh;
         width: 80dvw;
         display: flex;
         justify-content: center;
@@ -1838,6 +1840,7 @@ small{
         opacity: 75%;
         letter-spacing: 0.1rem;
         overflow: hidden;
+        line-height: 1.5rem;
         text-align: center;
     }
     .about-reserve{
@@ -2430,7 +2433,7 @@ small{
     }   
     .about-me{
         width: 90%;
-        height: 50dvh;
+        height: 100dvh;
         display: flex;
         justify-content: center;
         align-items: center;
