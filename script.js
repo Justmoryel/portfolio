@@ -1,14 +1,14 @@
 const clickable = document.querySelector('.menu');
-const fixed = document.querySelector('.fixed');
+const navdiv = document.querySelector('.navdiv');
 
 let isOpen = false;
 
 clickable.addEventListener('click', function() {
   if (!isOpen) {
-    fixed.style.display = 'block';
+    navdiv.style.display = 'block';
     isOpen = true;
   } else {
-    fixed.style.display = 'none';
+    navdiv.style.display = 'none';
     isOpen = false;
   }
 });
