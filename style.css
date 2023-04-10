@@ -6,7 +6,10 @@ body{
     font-family: 'Tahoma', sans-serif;
     overflow-x: hidden;
     scroll-behavior:smooth;
+    cursor: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" width="70" height="70" viewBox="-16 -16 32 32"><circle cx="0" cy="0" r="12" fill="transparent" stroke="white" stroke-width="1" mix-blend-mode="difference" /></svg>') 16 16, auto;
+
 }
+
 
                         /* start of nav section  */
 
@@ -134,9 +137,9 @@ nav{
 
 .menu{
     border-radius: 50%;
-    height: 100px;
-    width: 100px;
-    border: 2px solid whitesmoke;
+    height: 70px;
+    width: 70px;
+    border: 1px solid whitesmoke;
     display: flex;
     flex-direction: column;
     gap: 0.4rem;
@@ -145,7 +148,36 @@ nav{
     background-color: #1f1f1f;
     cursor: pointer;
 }
-
+.menu-close{
+    position: relative;
+    border-radius: 50%;
+    height: 70px;
+    width: 70px;
+    border: 1px solid whitesmoke;
+    display: flex;
+    flex-direction: column;
+    gap: 0.4rem;
+    justify-content: center;
+    align-items: center;
+    background-color: #1f1f1f;
+    cursor: pointer;
+}
+.menu-close .line-one{
+    position:absolute;
+    transform: translate(-50%, -50%) rotate(45deg);
+    border: 1px solid whitesmoke;
+    top: 50%;
+    left: 50%;
+    width: 40px;
+}
+.menu-close .line-two{
+    position: absolute;
+    transform: translate(-50%, -50%) rotate(-45deg);
+    border:1px solid whitesmoke;
+    width: 40px;
+    top: 50%;
+    left: 50%;
+}
 .line{
     border: 2px solid whitesmoke;
     width: 40px;
@@ -342,7 +374,16 @@ header>div{
     justify-content: center;
     align-items: center;
     position: relative;
-    cursor: pointer;
+    cursor: none;
+    transform: translate(-0%, -0%);
+    transition: background-color 0.3s ease-in-out;
+    transition: transform 0.143s ease;
+}
+.hovered {
+    transform: translate(-0%, -0%) scale(1.1); /* Scale up the div block */
+  }
+.project-button:hover{
+    background-color: rgb(224, 27, 204);
 }
 .project.two .project-button{    /*second project styling of button*/
     border-radius: 50%;
@@ -352,7 +393,11 @@ header>div{
     justify-content: center;
     align-items: center;
     position: relative;
+    transition: background-color 0.3s ease-in-out;
    
+}
+.project.two .project-button:hover{
+    background-color: rgba(0, 55, 255, 0.874);
 }
 .project.three .project-button{    /*third project styling of button*/
     border-radius: 50%;
@@ -362,7 +407,10 @@ header>div{
     justify-content: center;
     align-items: center;
     position: relative;
-   
+    transition: background-color 0.3s ease-in-out;
+}
+.project.three .project-button:hover{
+    background-color: orange;
 }
 .project.four .project-button{    /*fourth project styling of button*/
     border-radius: 50%;
@@ -372,7 +420,10 @@ header>div{
     justify-content: center;
     align-items: center;
     position: relative;
-   
+    transition: background-color 0.3s ease-in-out;
+}
+.project.four .project-button:hover{
+    background-color: aqua;
 }
 /* start of footer styling */
 footer{
