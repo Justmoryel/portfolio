@@ -363,8 +363,13 @@ header>div{
     position: relative;
 }
 
+                    /*first project styling of button*/
 
-.project-button{                /*first project styling of button*/
+button.circle.white{
+    transition: transform 0.143s ease;
+    transform: translate(-0%, -0%);
+}
+.project-button{                
     border-radius: 50%;
     width: 200px;
     height: 200px;
@@ -375,10 +380,11 @@ header>div{
     align-items: center;
     position: relative;
     cursor: none;
-    transform: translate(-0%, -0%);
     transition: background-color 0.3s ease-in-out;
+    transform: translate(-0%, -0%);
     transition: transform 0.143s ease;
 }
+
 .hovered {
     transform: translate(-0%, -0%) scale(1.1); /* Scale up the div block */
   }
@@ -764,7 +770,21 @@ small{
         justify-content: center;
         align-items: center;
         display: flex;
+        transition: background-color 0.3s ease-in-out;
+       
     }
+    .circle.white:hover{
+       background-color: whitesmoke;
+    }
+    .circle.white>h2:hover{
+        color: red;
+    }
+    .circle.orange:hover{
+        background-color: orange;
+     }
+     .circle.white>h2:hover{
+        color: red;
+     }
     .project-button-container .circle.orange{
         width: 140px;
         height: 140px;
@@ -774,6 +794,7 @@ small{
         justify-content: center;
         align-items: center;
         display: flex;
+        transition: background-color 0.3s ease-in-out;
     }
     .circle>h2{
         font-size: 1.4rem;
@@ -782,8 +803,11 @@ small{
         font-weight: lighter;
         text-align: center;
     }
+   
     .circle.white>h2{
         animation: rotate_white 200s infinite linear;
+        transition: background-color 0.3s ease-in-out;
+        
     }
     .circle.orange>h2{
         animation: rotate_orange 200s infinite linear;
