@@ -26,8 +26,8 @@ nav{
     display:none;
     z-index: 998;
     width: 100dvw;
-    position: fixed;
     height: 100dvh;
+    position: fixed;
     background-color: rgba(0, 0, 0, 0.80);
     padding: 10px;
     backdrop-filter: blur(3px);
@@ -42,7 +42,7 @@ nav{
     gap: 4rem;
 }
 
-  .profile-pic-wrapper{
+  .profile-wrapper{
     width: 20rem;
     height: 100%;
     display: flex;
@@ -50,7 +50,7 @@ nav{
     align-items: start;
     padding-top: 6rem;
   }
-  .profile-pic-wrapper button{
+  .profile-wrapper button{
     width: 200px;
     height: 200px;
     border-radius: 100%;
@@ -63,7 +63,7 @@ nav{
     cursor: pointer;
     border: none;
   }
-  .profile-pic-wrapper button:hover{
+  .profile-wrapper button:hover{
     filter: sepia(100%);
   }
   .nav-button-wrapper{
@@ -1143,6 +1143,7 @@ small{
         display: flex;
         justify-content: center;
         align-items: center;
+        padding-top: 0rem;
       
       }
       .profile-wrapper button{
@@ -1934,7 +1935,7 @@ small{
         
     }
     
-      .profile-pic-wrapper{
+      .profile-wrapper{
         width: 4rem;
         height: 100%;
         display: flex;
@@ -1944,7 +1945,7 @@ small{
         padding-left: 1rem;
     
       }
-      .profile-pic-wrapper button{
+      .profile-wrapper button{
         width: 80px;
         height: 80px;
         border-radius: 100%;
@@ -2823,7 +2824,7 @@ small{
         
     }
     
-      .profile-pic-wrapper{
+      .profile-wrapper{
         width: 20rem;
         height: 100%;
         display: flex;
@@ -2833,7 +2834,7 @@ small{
         padding-left: 2rem;
     
       }
-      .profile-pic-wrapper button{
+      .profile-wrapper button{
         width: 100px;
         height: 100px;
         border-radius: 100%;
@@ -3731,7 +3732,7 @@ small{
         
     }
     
-      .profile-pic-wrapper{
+      .profile-wrapper{
         width: 20rem;
         height: 100%;
         display: flex;
@@ -3740,7 +3741,7 @@ small{
         padding-top: 10rem;
     
       }
-      .profile-pic-wrapper button{
+      .profile-wrapper button{
         width: 120px;
         height: 120px;
         border-radius: 100%;
@@ -4628,7 +4629,7 @@ small{
         
     }
     
-      .profile-pic-wrapper{
+      .profile-wrapper{
         width: 20rem;
         height: 100%;
         display: flex;
@@ -4637,7 +4638,7 @@ small{
         padding-top: 10rem;
     
       }
-      .profile-pic-wrapper button{
+      .profile-wrapper button{
         width: 150px;
         height: 150px;
         border-radius: 100%;
@@ -5532,7 +5533,7 @@ small{
         
     }
     
-      .profile-pic-wrapper{
+      .profile-wrapper{
         width: 20rem;
         height: 100%;
         display: flex;
@@ -5541,7 +5542,7 @@ small{
         padding-top: 10rem;
     
       }
-      .profile-pic-wrapper button{
+      .profile-wrapper button{
         width: 200px;
         height: 200px;
         border-radius: 100%;
