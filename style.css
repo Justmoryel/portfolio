@@ -1119,9 +1119,9 @@ small{
     .navdiv {
         display:none;
         z-index: 998;
-        width: 100dvw;
+        width: 100vw;
         position: fixed;
-        height: 100dvh;
+        height: 100vh;
         background-color: rgba(0, 0, 0, 0.80);
         backdrop-filter: blur(3px);
       }
@@ -1132,21 +1132,19 @@ small{
         justify-content: center;
         align-items: center;
         flex-direction:column;
-        gap: 2rem;
+        gap: 1rem;
+    
         
     }
     
       .profile-pic-wrapper{
         width: 100%;
-        height: 100%;
-        display: flex;
-        justify-content:center;
-        align-items: center;
-    
+        height: 15dvh;
+      
       }
       .profile-pic-wrapper button{
-        width: 120px;
-        height: 120px;
+        width: 100px;
+        height: 100px;
         border-radius: 100%;
         background-image: url(images/nav-about-myself.png);
         background-position: center;
@@ -1155,15 +1153,15 @@ small{
         overflow: hidden;
         background-color:transparent;
         cursor: pointer;
-        border:none;
-   
+        border: none;
       }
       .nav-button-wrapper{
         width: 100%;
-        height: 100%;
+        height: 20dvh;
         display: flex;
         justify-content: center;
-        align-items: center;
+        align-items:center;
+
       }
       .nav-button-wrapper .circle.white{
         width: 70px;
@@ -1177,12 +1175,11 @@ small{
     }
       .nav-list-wrapper{
         width:100%;
-        height: 20rem;
+        height: 40dvh;
         display: flex;
         justify-content:center;
         align-items:center;
         flex-direction: column;
-       
         
       }
       .nav-list-wrapper .link-work, .nav-list-wrapper .link-about{
@@ -1204,7 +1201,7 @@ small{
         align-items:center;
         flex-direction: column;
         color: whitesmoke;
-        gap: 0.5rem;
+        gap: 1rem;
 
 
       }
@@ -1214,7 +1211,7 @@ small{
         -webkit-text-stroke-width:0px;
         font-stretch: ultra-expanded;
         font-family: Verdana, Geneva, Tahoma, sans-serif;
-        font-size:4rem;
+        font-size:3.5rem;
      
       }
       .link-work button>h2, .link-about button>h2{
