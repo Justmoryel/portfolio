@@ -30,15 +30,18 @@ nav{
     position: fixed;
     background-color: rgba(0, 0, 0, 0.80);
     backdrop-filter: blur(3px);
+    overflow: hidden;
   }
 .navdiv-wrapper{
-    width: 100%;
-    height: 100%;
+    width: 100dvw;
+    height: 100dvh;
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: row;
     gap: 4rem;
+    overflow: hidden;
+    
 }
 
   .profile-wrapper{
@@ -47,7 +50,7 @@ nav{
     display: flex;
     justify-content: center;
     align-items: start;
-    padding-top: 6rem;
+    margin-top: 10rem;
   }
   .profile-wrapper button{
     width: 200px;
@@ -1142,7 +1145,7 @@ small{
         display: flex;
         justify-content: center;
         align-items: center;
-        padding-top: 0rem;
+        margin-top: 1rem;
       
       }
       .profile-wrapper button{
@@ -1930,18 +1933,17 @@ small{
         justify-content: center;
         align-items: center;
         flex-direction: row;
-        gap: 1rem;
+        gap: 2rem;
         
     }
     
       .profile-wrapper{
-        width: 4rem;
+        width: auto;
         height: 100%;
         display: flex;
         justify-content: center;
         align-items: start;
-        padding-top: 15rem;
-        padding-left: 1rem;
+        margin-top: 10rem;
     
       }
       .profile-wrapper button{
@@ -1959,11 +1961,12 @@ small{
    
       }
       .nav-button-wrapper{
-        width: 20rem;
+        width: auto;
         height: 100%;
         display: flex;
         justify-content: center;
         align-items: center;
+        margin-right: 1rem;
       }
       .nav-button-wrapper .circle.white{
         width: 70px;
@@ -1976,19 +1979,18 @@ small{
         display: flex;
     }
       .nav-list-wrapper{
-        width:50rem;
+        width:auto;
         height: 60%;
         display: flex;
         justify-content:center;
         align-items:center;
         flex-direction: column;
-        padding-right: 2rem;
        
         
       }
       .nav-list-wrapper .link-work, .nav-list-wrapper .link-about{
         width: 100%;
-        height: 15rem;
+        height: auto;
         
        
       }
@@ -2824,13 +2826,12 @@ small{
     }
     
       .profile-wrapper{
-        width: 20rem;
+        width: auto;
         height: 100%;
         display: flex;
         justify-content: center;
         align-items: start;
-        padding-top: 10rem;
-        padding-left: 2rem;
+        margin-top: 10rem;
     
       }
       .profile-wrapper button{
@@ -2848,7 +2849,7 @@ small{
    
       }
       .nav-button-wrapper{
-        width: 20rem;
+        width: auto;
         height: 100%;
         display: flex;
         justify-content: center;
@@ -2865,21 +2866,16 @@ small{
         display: flex;
     }
       .nav-list-wrapper{
-        width:50rem;
-        height: 80%;
+        width:auto;
+        height: 100%;
         display: flex;
         justify-content:center;
         align-items:center;
         flex-direction: column;
-        padding-right: 2rem;
-       
-        
       }
       .nav-list-wrapper .link-work, .nav-list-wrapper .link-about{
         width: 100%;
-        height: 15rem;
-        
-       
+        height:auto;    
       }
       .nav-list-wrapper .link-work>button, .nav-list-wrapper .link-about>button,  .nav-list-wrapper .link-social>button{
         background-color: transparent;
@@ -3727,17 +3723,17 @@ small{
         justify-content: center;
         align-items: center;
         flex-direction: row;
-        gap: 2rem;
+        gap: 5rem;
         
     }
     
       .profile-wrapper{
-        width: 20rem;
+        width: auto;
         height: 100%;
         display: flex;
         justify-content: center;
         align-items: start;
-        padding-top: 10rem;
+        margin-top: 10rem;
     
       }
       .profile-wrapper button{
@@ -3754,7 +3750,7 @@ small{
         border:none;
       }
       .nav-button-wrapper{
-        width: 20rem;
+        width: auto;
         height: 100%;
         display: flex;
         justify-content: center;
@@ -3771,19 +3767,17 @@ small{
         display: flex;
     }
       .nav-list-wrapper{
-        width:50rem;
+        width:auto;
         height: 100%;
         display: flex;
         justify-content: center;
         align-items: center;
         flex-direction: column;
-        padding-right: 2rem;
         
       }
       .nav-list-wrapper .link-work, .nav-list-wrapper .link-about{
         width: 100%;
-        height: 15rem;
-       
+        height: auto;
       }
       .nav-list-wrapper .link-work>button, .nav-list-wrapper .link-about>button,  .nav-list-wrapper .link-social>button{
         background-color: transparent;
@@ -4618,23 +4612,23 @@ small{
         backdrop-filter: blur(3px);
       }
     .navdiv-wrapper{
-        width: 100%;
-        height: 100%;
+        width: 100dvw;
+        height: 100dvh;
         display: flex;
         justify-content: center;
         align-items: center;
         flex-direction: row;
-        gap: 2rem;
+        gap: 7rem;
         
     }
     
       .profile-wrapper{
-        width: 20rem;
+        width: auto;
         height: 100%;
         display: flex;
         justify-content: center;
         align-items: start;
-        padding-top: 10rem;
+        margin-top: 10rem;
     
       }
       .profile-wrapper button{
@@ -4651,7 +4645,7 @@ small{
         border:none;
       }
       .nav-button-wrapper{
-        width: 20rem;
+        width: auto;
         height: 100%;
         display: flex;
         justify-content: center;
@@ -4668,14 +4662,13 @@ small{
         display: flex;
     }
       .nav-list-wrapper{
-        width:50rem;
+        width:auto;
         height: 100%;
         display: flex;
         justify-content: center;
         align-items: center;
         gap:3rem;
         flex-direction: column;
-        padding-right: 2rem;
       }
       .nav-list-wrapper .link-work, .nav-list-wrapper .link-about{
         width: 100%;
@@ -5522,24 +5515,25 @@ small{
         backdrop-filter: blur(3px);
       }
     .navdiv-wrapper{
-        width: 100%;
-        height: 100%;
+        width: 100dvw;
+        height: 100dvh;
         display: flex;
         justify-content: center;
         align-items: center;
         flex-direction: row;
-        gap: 2rem;
+        gap: 7rem;
         
     }
     
       .profile-wrapper{
-        width: 20rem;
+        width: auto;
         height: 100%;
         display: flex;
         justify-content: center;
-        align-items: start;
-        padding-top: 10rem;
-    
+        align-items:start;
+        margin-top: 10rem;
+
+        
       }
       .profile-wrapper button{
         width: 200px;
@@ -5555,7 +5549,7 @@ small{
         border:none;
       }
       .nav-button-wrapper{
-        width: 20rem;
+        width: auto;
         height: 100%;
         display: flex;
         justify-content: center;
@@ -5572,14 +5566,13 @@ small{
         display: flex;
     }
       .nav-list-wrapper{
-        width:50rem;
+        width:auto;
         height: 100%;
         display: flex;
         justify-content: center;
         align-items: center;
         gap:3rem;
         flex-direction: column;
-        padding-right: 2rem;
       }
       .nav-list-wrapper .link-work, .nav-list-wrapper .link-about{
         width: 100%;
